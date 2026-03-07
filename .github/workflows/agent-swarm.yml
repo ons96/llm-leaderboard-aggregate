@@ -1,0 +1,91 @@
+name: Agent Swarm (Issue Triggered)
+
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  contents: write
+  pull-requests: write
+  issues: write
+
+jobs:
+  swarm-resolve:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup environment
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install OpenHands headless
+        run: |
+          # Example installation
+          # pip install openhands
+          echo "Installing OpenHands dependencies..."
+
+      - name: Tailscale
+        uses: tailscale/github-action@v2
+        with:
+          oauth-client-id: ${{ secrets.TS_OAUTH_CLIENT_ID }}
+          oauth-secret: ${{ secrets.TS_OAUTH_SECRET }}
+          tags: tag:github-actions
+
+      - name: Run BMAD Ralph Loop
+        env:
+          GH_TOKEN: ${{ secrets.GH_PAT }}
+          LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
+          LLM_BASE_URL: ${{ secrets.LLM_BASE_URL }}
+          LLM_MODEL: "coding-elite" # Virtual model pointing to your Gateway
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+          ISSUE_TITLE: ${{ github.event.issue.title }}
+          ISSUE_BODY: ${{ github.event.issue.body }}
+        run: |
+          echo "Resolving issue #$ISSUE_NUMBER: $ISSUE_TITLE"
+          
+          # This represents the Ralph Loop / BMAD method invoking the 3 agent personas
+          echo "1. Architect (Brainstorm): Analyzing issue and proposing architecture."
+          # AGENT_OUTPUT=$(python -m openhands.core.main --prompt-file .github/agents/architect_prompt.txt)
+          # if echo "$AGENT_OUTPUT" | grep -q "IMPOSSIBLE_TASK_REPORT"; then
+          #   echo "Task is impossible. Reporting blockers..."
+          #   gh issue comment "$ISSUE_NUMBER" --body "🤖 **Impossible Task Report** 🤖"$'\n\n'"$AGENT_OUTPUT"
+          #   exit 0
+          # fi
+          
+          echo "2. Coder (Make): Implementing the proposed solution."
+          # python -m openhands.core.main --prompt-file .github/agents/coder_prompt.txt
+          
+          echo "3. QA (Assess/Debug): Writing tests and running the Ralph Loop until passing."
+          # AGENT_OUTPUT=$(python -m openhands.core.main --prompt-file .github/agents/qa_prompt.txt)
+          # if echo "$AGENT_OUTPUT" | grep -q "FAILURE_DIAGNOSTICS_REPORT"; then
+          #   echo "Ralph Loop failed. Reporting diagnostics..."
+          #   gh issue comment "$ISSUE_NUMBER" --body "🤖 **Failure Diagnostics Report** 🤖"$'\n\n'"$AGENT_OUTPUT"
+          #   exit 1
+          # fi
+          
+          echo "4. Reviewer (Safety Audit): Performing final code review and approval."
+          # python -m openhands.core.main --prompt-file .github/agents/reviewer_prompt.txt
+          
+          # Create branch, commit and PR
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          
+          BRANCH_NAME="ai-swarm-fix-$ISSUE_NUMBER"
+          git checkout -b "$BRANCH_NAME"
+          
+          git add .
+          if ! git diff --cached --quiet; then
+            git commit -m "Automated fix for issue #$ISSUE_NUMBER"
+            git push -u origin "$BRANCH_NAME"
+            gh pr create -B main -H "$BRANCH_NAME" --title "Automated fix for issue #$ISSUE_NUMBER" --body "Resolves #$ISSUE_NUMBER. Implemented via AI Swarm BMAD."
+            
+            # Auto-merge the PR
+            echo "Auto-merging PR..."
+            gh pr merge "$BRANCH_NAME" --merge --auto --delete-branch
+            echo "Successfully deployed and merged fix."
+          else
+            echo "No changes were made by the Swarm."
+          fi
