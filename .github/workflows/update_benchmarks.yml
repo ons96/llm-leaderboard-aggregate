@@ -1,0 +1,80 @@
+name: Update Benchmarks
+
+on:
+  schedule:
+    - cron: "0 3 * * *"
+  workflow_dispatch: {}
+
+jobs:
+  update-benchmarks:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Cache pip dependencies
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-
+
+      - name: Install deps
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Install Playwright
+        run: |
+          pip install playwright
+          playwright install chromium --with-deps
+
+      - name: Run benchmark aggregation
+        run: python -m modeldb_builder.benchmarks --json
+
+      - name: Validate output
+        run: |
+          set -e
+          if [ ! -f "leaderboards/agentic_coding_leaderboard.csv" ]; then
+            echo "ERROR: agentic_coding_leaderboard.csv not found"
+            exit 1
+          fi
+          if [ ! -f "leaderboards/gateway_fallback_ranking.csv" ]; then
+            echo "ERROR: gateway_fallback_ranking.csv not found"
+            exit 1
+          fi
+          AGENTIC_ROWS=$(wc -l < leaderboards/agentic_coding_leaderboard.csv)
+          GATEWAY_ROWS=$(wc -l < leaderboards/gateway_fallback_ranking.csv)
+          echo "Agentic: $AGENTIC_ROWS, Gateway: $GATEWAY_ROWS"
+          if [ "$AGENTIC_ROWS" -lt 50 ] || [ "$GATEWAY_ROWS" -lt 100 ]; then
+            echo "ERROR: Row count too low"
+            exit 1
+          fi
+          echo "Validation passed"
+
+      - name: Commit outputs
+        if: success()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add db/ data/raw/ leaderboards/
+          if git diff --cached --quiet; then
+            echo "No changes"
+          else
+            git commit -m "Update benchmarks ($(date -u +%Y-%m-%dT%H:%M:%SZ))"
+            git push
+          fi
+
+      - name: Report failure
+        if: failure()
+        run: echo "::warning::Benchmark update failed"

@@ -1,0 +1,96 @@
+{
+  "sources": {
+    "aider": {
+      "error": null,
+      "ok": true,
+      "row_count": 69,
+      "sha256": "cea6cab3ac65e4d41cce072fcac5540497d757b3a6f72d997b7c3607b44c470e",
+      "updated_at": "2026-03-13T15:57:30+00:00"
+    },
+    "artificial_analysis": {
+      "error": null,
+      "ok": true,
+      "row_count": 1,
+      "sha256": "3354ac868d45b43b2a187e4324f864f7e90cf922ee8008d1945cff34439a7d81",
+      "updated_at": "2026-03-13T18:00:14+00:00"
+    },
+    "awesomeagents": {
+      "error": null,
+      "ok": true,
+      "row_count": 18,
+      "sha256": "8fb3e7cb2deb65c2139f763e2434c51996b5e37248c81982d0d920585db7597a",
+      "updated_at": "2026-03-13T15:57:51+00:00"
+    },
+    "litellm": {
+      "error": null,
+      "ok": true,
+      "row_count": 2582,
+      "sha256": "143b2f630866fbaffe0a19e50712ad41933c9b2965fe20dc59c21272f134f07a",
+      "updated_at": "2026-03-13T02:20:57+00:00"
+    },
+    "livebench": {
+      "error": null,
+      "ok": true,
+      "row_count": 195,
+      "sha256": "cf38fa03813ff0b52e1dcb9d6b2b572b9ec47ce897f94921a28c9c4aa2ee4feb",
+      "updated_at": "2026-03-13T17:58:58+00:00"
+    },
+    "livecodebench": {
+      "error": null,
+      "ok": true,
+      "row_count": 198,
+      "sha256": "c8dd31ff57fe024aaeae0f44c34ed658f9df12c5bbe8ff939ff2208d9ddd888e",
+      "updated_at": "2026-03-13T17:59:43+00:00"
+    },
+    "llmstats": {
+      "error": "no llm-stats rows parsed",
+      "ok": false,
+      "row_count": 0,
+      "sha256": null,
+      "updated_at": "2026-03-13T17:59:44+00:00"
+    },
+    "lmarena": {
+      "error": null,
+      "ok": true,
+      "row_count": 255,
+      "sha256": "5fdde6151872c838d5c6fc3d1a5064bbd0d9f91e06f58fd61b650e37cfc1519b",
+      "updated_at": "2026-03-13T17:59:44+00:00"
+    },
+    "modelsdev": {
+      "error": null,
+      "ok": true,
+      "row_count": 102,
+      "sha256": "bae73c2b4631dcfedbc9bf3608510cdc470d0886ff2dca2e3788fd01c53c18e2",
+      "updated_at": "2026-03-13T02:20:58+00:00"
+    },
+    "openrouter": {
+      "error": null,
+      "ok": true,
+      "row_count": 344,
+      "sha256": "b1a2d5d95b1e5d46a5f0e692bde2e29fb0f7d93bfa8b0d57a61615d4dc694108",
+      "updated_at": "2026-03-13T02:20:57+00:00"
+    },
+    "swebench": {
+      "error": null,
+      "ok": true,
+      "row_count": 48,
+      "sha256": "241a798ca0eaa3fcdaeb80114fc7541463d7a9a9b8e47ae9ae7c392322d2cccc",
+      "updated_at": "2026-03-13T17:59:28+00:00"
+    },
+    "swerebench": {
+      "error": null,
+      "ok": true,
+      "row_count": 36,
+      "sha256": "f18b2d4a571961d3820a4f7a7ef13865ce30319eec504480322ba5e40c08fa43",
+      "updated_at": "2026-03-13T17:59:40+00:00"
+    },
+    "valsai": {
+      "error": "BrowserType.launch: Target page, context or browser has been closed\nBrowser logs:\n\n<launching> /home/osees/.cache/ms-playwright/chromium_headless_shell-1208/chrome-headless-shell-linux64/chrome-headless-shell --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,BoundaryEventDispatchTracksNodeRemoval,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate,AutoDeElevate,RenderDocument,OptimizationHints --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --enable-automation --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --user-data-dir=/tmp/playwright_chromiumdev_profile-nBCIIh --remote-debugging-pipe --no-startup-window\n<launched> pid=15077\n[pid=15077][err] /home/osees/.cache/ms-playwright/chromium_headless_shell-1208/chrome-headless-shell-linux64/chrome-headless-shell: error while loading shared libraries: libnspr4.so: cannot open shared object file: No such file or directory\nCall log:\n  - <launching> /home/osees/.cache/ms-playwright/chromium_headless_shell-1208/chrome-headless-shell-linux64/chrome-headless-shell --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,BoundaryEventDispatchTracksNodeRemoval,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate,AutoDeElevate,RenderDocument,OptimizationHints --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --enable-automation --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --headless --hide-scrollbars --mute-audio --blink-settings=primaryHoverType=2,availableHoverTypes=2,primaryPointerType=4,availablePointerTypes=4 --no-sandbox --user-data-dir=/tmp/playwright_chromiumdev_profile-nBCIIh --remote-debugging-pipe --no-startup-window\n  - <launched> pid=15077\n  - [pid=15077][err] /home/osees/.cache/ms-playwright/chromium_headless_shell-1208/chrome-headless-shell-linux64/chrome-headless-shell: error while loading shared libraries: libnspr4.so: cannot open shared object file: No such file or directory\n  - [pid=15077] <gracefully close start>\n  - [pid=15077] <kill>\n  - [pid=15077] <will force kill>\n  - [pid=15077] exception while trying to kill process: Error: kill ESRCH\n  - [pid=15077] <process did exit: exitCode=127, signal=null>\n  - [pid=15077] starting temporary directories cleanup\n  - [pid=15077] finished temporary directories cleanup\n  - [pid=15077] <gracefully close end>\n",
+      "ok": false,
+      "row_count": 0,
+      "sha256": null,
+      "updated_at": "2026-03-13T17:59:46+00:00"
+    }
+  },
+  "updated_at": "2026-03-13T18:00:14+00:00"
+}

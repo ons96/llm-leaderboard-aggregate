@@ -1,0 +1,84 @@
+{
+  "minimax-m2-5": {
+    "swe_bench_verified_pct": 80.2,
+    "swerebench_pct": 39.6,
+    "arena_elo": 1452,
+    "arena_elo_coding": 1452,
+    "source": "MiniMax official blog + LM Arena Feb 2026 + SWE-rebench Jan 2026"
+  },
+  "glm-5": {
+    "swe_bench_verified_pct": 77.8,
+    "swerebench_pct": 42.1,
+    "arena_elo": 1455,
+    "arena_elo_coding": 1451,
+    "source": "Z.ai official + LM Arena Feb 2026 + SWE-rebench Jan 2026"
+  },
+  "kimi-k2-5": {
+    "swe_bench_verified_pct": 75.0,
+    "livecodebench_pct": 85.0,
+    "arena_elo": 1447,
+    "source": "Moonshot AI official + LM Arena Feb 2026"
+  },
+  "kimi-k2-thinking": {
+    "swe_bench_verified_pct": 43.8,
+    "swerebench_pct": 43.8,
+    "source": "SWE-rebench Jan 2026"
+  },
+  "qwen3-coder-480b-a35b-instruct": {
+    "swe_bench_verified_pct": 61.0,
+    "source": "Qwen official blog"
+  },
+  "qwen3-coder-next": {
+    "swerebench_pct": 40.0,
+    "source": "SWE-rebench Jan 2026"
+  },
+  "deepseek-v3-2": {
+    "arena_elo": 1451,
+    "livecodebench_pct": 89.6,
+    "source": "LM Arena Feb 2026 + pricepertoken.com"
+  },
+  "qwen3-5-397b-a17b": {
+    "arena_elo": 1454,
+    "arena_elo_coding": 1451,
+    "source": "LM Arena Feb 2026"
+  },
+  "claude-opus-4-6": {
+    "swe_bench_verified_pct": 80.8,
+    "source": "Anthropic official"
+  },
+  "claude-sonnet-4-6": {
+    "swe_bench_verified_pct": 72.7,
+    "source": "Anthropic official"
+  },
+  "gpt-5-2": {
+    "swe_bench_verified_pct": 80.0,
+    "source": "OpenAI official"
+  },
+  "gpt-5-2-codex": {
+    "swe_bench_verified_pct": 72.8,
+    "livecodebench_pct": 82.4,
+    "source": "OpenAI official + pricepertoken.com"
+  },
+  "gemini-3-pro": {
+    "swe_bench_verified_pct": 63.8,
+    "livecodebench_pct": 91.7,
+    "source": "Google official + pricepertoken.com"
+  },
+  "gemini-3-flash": {
+    "livecodebench_pct": 90.8,
+    "source": "pricepertoken.com"
+  },
+  "deepseek-r1": {
+    "swe_bench_verified_pct": 49.2,
+    "source": "SWE-bench official"
+  },
+  "glm-4-7": {
+    "swerebench_pct": 31.0,
+    "source": "SWE-rebench Jan 2026"
+  },
+  "devstral-2512": {
+    "swe_bench_verified_pct": 56.0,
+    "source": "Mistral official blog"
+  }
+}
+

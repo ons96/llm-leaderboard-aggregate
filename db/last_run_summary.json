@@ -1,0 +1,18 @@
+{
+  "paths": {
+    "db": "/home/osees/CodingProjects/llm-leaderboard-aggregate/db/models.db",
+    "model_providers_csv": "/home/osees/CodingProjects/llm-leaderboard-aggregate/db/model_providers.csv",
+    "model_providers_db": "/home/osees/CodingProjects/llm-leaderboard-aggregate/db/model_providers.db",
+    "models_unique_csv": "/home/osees/CodingProjects/llm-leaderboard-aggregate/db/models_unique.csv",
+    "models_unique_db": "/home/osees/CodingProjects/llm-leaderboard-aggregate/db/models_unique.db"
+  },
+  "provider_rows": 6450,
+  "sources": {
+    "artificial_analysis_metrics": 0,
+    "litellm_records": 2582,
+    "modelsdev_records": 3718,
+    "openrouter_records": 344
+  },
+  "unique_models": 3776,
+  "updated_at": "2026-03-13T02:20:58+00:00"
+}

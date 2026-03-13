@@ -1,0 +1,85 @@
+source,raw_name,normalized_name,status,suggested_model_id,similarity,reason
+swerebench,Junie,junie,unmatched,,54.54545454545454,best fuzzy venice
+swerebench,Codex,codex,needs_review,codex-mini,66.66666666666666,fuzzy needs review to codex-mini
+livecodebench,R1 0528,r1-0528,needs_review,deepseek-r1-0528,60.86956521739131,fuzzy needs review to deepseek-r1-0528
+livecodebench,GLM 4.5 Thinking,glm-4-5-thinking,needs_review,gpt-5-thinking,80.0,developer/family mismatch for token 'glm'
+livecodebench,Nemotron Nano 9B V2 Thinking,nemotron-nano-9b-v2-thinking,needs_review,nvidia-nemotron-nano-v2-12b,70.83333333333334,fuzzy needs review to nemotron-nano-v2-12b
+livecodebench,Nemotron Nano 12B 2 VL Thinking,nemotron-nano-12b-2-vl-thinking,needs_review,nvidia-nemotron-nano-12b-v2-vl,72.1311475409836,fuzzy needs review to nvidia-nemotron-nano-12b-v2-vl
+livecodebench,R1,r1,unmatched,,57.14285714285714,best fuzzy rnj-1
+lmarena,GPT-5.4-high,gpt-5-4-high,needs_review,gpt-5-4,73.68421052631578,fuzzy needs review to gpt-5-4
+lmarena,Grok-4.1-Thinking,grok-4-1-thinking,needs_review,gpt-5-1-thinking,78.78787878787878,developer/family mismatch for token 'grok'
+lmarena,Seed2.0 Pro,seed2-0-pro,needs_review,doubao-seed-2-0-pro,73.33333333333333,fuzzy needs review to doubao-seed-2-0-pro
+lmarena,Grok-3-Preview-02-24,grok-3-preview-02-24,needs_review,o1-preview-2024-09-12,68.29268292682927,fuzzy needs review to o1-preview-2024-09-12
+lmarena,Amazon-Nova-Chat-11-10,amazon-nova-chat-11-10,needs_review,amazon-nova-canvas-v1,74.4186046511628,fuzzy needs review to amazon-nova-canvas-v1
+lmarena,Hunyuan-Vision-1.5-Thinking,hunyuan-vision-1-5-thinking,needs_review,doubao-1-5-thinking-pro,64.0,fuzzy needs review to doubao-1-5-thinking-pro
+lmarena,Hunyuan-T1-20250711,hunyuan-t1-20250711,needs_review,hunyuan-turbos-20250226,71.42857142857143,fuzzy needs review to hunyuan-turbos-20250226
+lmarena,Grok-3-mini-high,grok-3-mini-high,needs_review,o3-mini-high,85.71428571428571,developer/family mismatch for token 'grok'
+lmarena,Step-1o-Turbo-202506,step-1o-turbo-202506,needs_review,gpt-35-turbo-0125,64.86486486486487,fuzzy needs review to gpt-35-turbo-0125
+lmarena,Amazon-Nova-Chat-05-14,amazon-nova-chat-05-14,needs_review,amazon-nova-canvas-v1,74.4186046511628,fuzzy needs review to amazon-nova-canvas-v1
+lmarena,Grok-2-08-13,grok-2-08-13,needs_review,grok-4-1,70.0,fuzzy needs review to grok-4-1
+lmarena,Athene-v2-Chat-72B,athene-v2-chat-72b,unmatched,,58.06451612903226,best fuzzy magnum-v2-72b
+lmarena,Hunyuan-Large-2025-02-10,hunyuan-large-2025-02-10,needs_review,hunyuan-turbos-20250226,68.08510638297872,fuzzy needs review to hunyuan-turbos-20250226
+lmarena,Grok-2-mini-08-13,grok-2-mini-08-13,needs_review,grok-3-mini,71.42857142857143,fuzzy needs review to grok-3-mini
+lmarena,Hunyuan-Standard-2025-02-10,hunyuan-standard-2025-02-10,needs_review,hunyuan-turbos-20250226,64.0,fuzzy needs review to hunyuan-turbos-20250226
+lmarena,Hunyuan-Large-Vision,hunyuan-large-vision,needs_review,hunyuan-t1-latest,64.86486486486487,fuzzy needs review to hunyuan-t1-latest
+lmarena,Athene-70B,athene-70b,needs_review,nousresearch-2-hermes-3-llama-3-1-70b,63.63636363636363,fuzzy needs review to hermes-3-70b
+lmarena,Reka-Core-20240904,reka-core-20240904,unmatched,,55.00000000000001,best fuzzy kat-coder-exp-72b-1010
+lmarena,Reka-Core-20240722,reka-core-20240722,unmatched,,57.14285714285714,best fuzzy claude-3-sonnet-20240229
+lmarena,Deepseek-v2-API-0628,deepseek-v2-api-0628,needs_review,deepseek-r1-0528,72.22222222222221,fuzzy needs review to deepseek-r1-0528
+lmarena,Reka-Flash-20240904,reka-flash-20240904,needs_review,rekaai-reka-flash-3,70.96774193548387,fuzzy needs review to reka-flash-3
+lmarena,Reka-Flash-20240722,reka-flash-20240722,needs_review,rekaai-reka-flash-3,70.96774193548387,fuzzy needs review to reka-flash-3
+lmarena,Hunyuan-Standard-256K,hunyuan-standard-256k,unmatched,,59.09090909090909,best fuzzy hunyuan-turbos-20250226
+lmarena,Llama-3.1-Tulu-3-8B,llama-3-1-tulu-3-8b,needs_review,llama3-1-8b,73.33333333333333,fuzzy needs review to llama3-1-8b
+lmarena,Qwen1.5-110B-Chat,qwen1-5-110b-chat,needs_review,qwen2-5-14b-instruct,64.86486486486487,fuzzy needs review to qwen2-5-14b-instruct
+lmarena,Yi-1.5-34B-Chat,yi-1-5-34b-chat,needs_review,gpt-5-3-chat,66.66666666666666,fuzzy needs review to gpt-5-3-chat
+lmarena,Qwen1.5-72B-Chat,qwen1-5-72b-chat,needs_review,qwen2-5-72b-instruct,72.22222222222221,fuzzy needs review to qwen2-5-72b-instruct
+lmarena,Zephyr-ORPO-141b-A35b-v0.1,zephyr-orpo-141b-a35b-v0-1,unmatched,,47.27272727272727,best fuzzy qwen-qwen3-coder-480b-a35b-v1
+lmarena,Starling-LM-7B-beta,starling-lm-7b-beta,unmatched,,53.57142857142857,best fuzzy anyscale-huggingfaceh4-zephyr-7b-beta
+lmarena,Granite-3.1-2B-Instruct,granite-3-1-2b-instruct,needs_review,allenai-olmo-3-1-32b-instruct,73.07692307692307,fuzzy needs review to allenai-olmo-3-1-32b-instruct
+lmarena,Qwen1.5-14B-Chat,qwen1-5-14b-chat,needs_review,qwen2-5-14b-instruct,72.22222222222221,fuzzy needs review to qwen2-5-14b-instruct
+lmarena,Tulu-2-DPO-70B,tulu-2-dpo-70b,unmatched,,58.333333333333336,best fuzzy flux-2-pro
+lmarena,DBRX-Instruct-Preview,dbrx-instruct-preview,needs_review,trinity-large-preview-free,61.904761904761905,fuzzy needs review to trinity-large-preview
+lmarena,WizardLM-70B-v1.0,wizardlm-70b-v1-0,needs_review,microsoft-wizardlm-2-8x22b,60.60606060606061,fuzzy needs review to wizardlm-2-8x22b
+lmarena,Nous-Hermes-2-Mixtral-8x7B-DPO,nous-hermes-2-mixtral-8x7b-dpo,needs_review,snowflake-mixtral-8x7b,61.53846153846154,fuzzy needs review to snowflake-mixtral-8x7b
+lmarena,OpenChat-3.5-0106,openchat-3-5-0106,needs_review,openai-gpt-5-1,64.51612903225806,fuzzy needs review to openai-gpt-5-1
+lmarena,Starling-LM-7B-alpha,starling-lm-7b-alpha,unmatched,,55.319148936170215,best fuzzy databricks-llama-2-70b-chat
+lmarena,Vicuna-33B,vicuna-33b,unmatched,,56.00000000000001,best fuzzy baichuan-m2-32b
+lmarena,NV-Llama2-70B-SteerLM-Chat,nv-llama2-70b-steerlm-chat,needs_review,llama-2-70b-chat,71.42857142857143,fuzzy needs review to llama-2-70b-chat
+lmarena,OpenChat-3.5,openchat-3-5,needs_review,openai-gpt-5,66.66666666666666,fuzzy needs review to openai-gpt-5
+lmarena,Granite-3.0-2B-Instruct,granite-3-0-2b-instruct,needs_review,ibm-granite-granite-3-3-8b-instruct,72.41379310344827,fuzzy needs review to ibm-granite-granite-3-3-8b-instruct
+lmarena,SOLAR-10.7B-Instruct-v1.0,solar-10-7b-instruct-v1-0,needs_review,meta-llama3-1-70b-instruct-v1,70.37037037037037,fuzzy needs review to meta-llama3-1-70b-instruct-v1
+lmarena,Qwen1.5-7B-Chat,qwen1-5-7b-chat,needs_review,qwen2-5-7b-instruct,70.58823529411765,fuzzy needs review to qwen2-5-7b-instruct
+lmarena,WizardLM-13b-v1.2,wizardlm-13b-v1-2,needs_review,microsoft-wizardlm-2-8x22b,60.60606060606061,fuzzy needs review to wizardlm-2-8x22b
+lmarena,Zephyr-7B-beta,zephyr-7b-beta,unmatched,,56.00000000000001,best fuzzy grok-3-beta
+livebench,QwQ-32B-Preview,qwq-32b-preview,needs_review,qwen3-max-preview,68.75,fuzzy needs review to qwen3-max-preview
+livebench,Qwen1.5-0.5B-Chat,qwen1-5-0-5b-chat,needs_review,qwen3-5-35b-a3b,68.75,fuzzy needs review to qwen3-5-35b-a3b
+livebench,Qwen1.5-1.8B-Chat,qwen1-5-1-8b-chat,needs_review,qwen2-5-14b-instruct,64.86486486486487,fuzzy needs review to qwen2-5-14b-instruct
+livebench,Qwen1.5-110B-Chat,qwen1-5-110b-chat,needs_review,qwen2-5-14b-instruct,64.86486486486487,fuzzy needs review to qwen2-5-14b-instruct
+livebench,Qwen1.5-4B-Chat,qwen1-5-4b-chat,needs_review,qwen2-5-14b-instruct,68.57142857142857,fuzzy needs review to qwen2-5-14b-instruct
+livebench,Qwen1.5-72B-Chat,qwen1-5-72b-chat,needs_review,qwen2-5-72b-instruct,72.22222222222221,fuzzy needs review to qwen2-5-72b-instruct
+livebench,Qwen1.5-7B-Chat,qwen1-5-7b-chat,needs_review,qwen2-5-7b-instruct,70.58823529411765,fuzzy needs review to qwen2-5-7b-instruct
+livebench,Starling-LM-7B-beta,starling-lm-7b-beta,unmatched,,53.57142857142857,best fuzzy anyscale-huggingfaceh4-zephyr-7b-beta
+livebench,Yi-6B-Chat,yi-6b-chat,needs_review,core42-jais-30b-chat,69.56521739130434,fuzzy needs review to jais-30b-chat
+livebench,acm_rewrite_qwen2-72B-Chat,acm-rewrite-qwen2-72b-chat,needs_review,ollama-internlm2-5-20b-chat,60.37735849056604,fuzzy needs review to ollama-internlm2-5-20b-chat
+livebench,azerogpt,azerogpt,needs_review,azure-gpt-4o,60.0,fuzzy needs review to azure-gpt-4o
+livebench,codegen3_5k-qwen2.5-72b-instruct-2-chk-50,codegen3-5k-qwen2-5-72b-instruct-2-chk-50,needs_review,qwen-qwen2-5-72b-instruct-128k,73.23943661971832,fuzzy needs review to qwen-qwen2-5-72b-instruct-128k
+livebench,coding2-amcfull-apifull-mmlu12k-meta-llama-3.1-70b-instruct-chk-150,coding2-amcfull-apifull-mmlu12k-meta-llama-3-1-70b-instruct-chk-150,needs_review,together-ai-meta-llama-meta-llama-3-1-70b-instruct-turbo,61.78861788617886,fuzzy needs review to together-ai-meta-llama-meta-llama-3-1-70b-instruct-turbo
+livebench,deepseek-r1-local-2,deepseek-r1-local-2,needs_review,deepseek-r1-0528,74.28571428571429,fuzzy needs review to deepseek-r1-0528
+livebench,lcb-math-qwen2-72b-instructv3-merged-50,lcb-math-qwen2-72b-instructv3-merged-50,needs_review,qwen-qwen2-5-vl-72b-instruct-tee,63.63636363636363,fuzzy needs review to qwen2-5-vl-72b-instruct-tee
+livebench,olmo-2-1124-13b-instruct,olmo-2-1124-13b-instruct,needs_review,meta-llama3-2-11b-instruct-v1,73.91304347826086,fuzzy needs review to llama-3-2-11b-instruct
+livebench,qwen1.5-0.5b-chat,qwen1-5-0-5b-chat,needs_review,qwen3-5-35b-a3b,68.75,fuzzy needs review to qwen3-5-35b-a3b
+livebench,qwen1.5-1.8b-chat,qwen1-5-1-8b-chat,needs_review,qwen2-5-14b-instruct,64.86486486486487,fuzzy needs review to qwen2-5-14b-instruct
+livebench,qwen1.5-110b-chat,qwen1-5-110b-chat,needs_review,qwen2-5-14b-instruct,64.86486486486487,fuzzy needs review to qwen2-5-14b-instruct
+livebench,qwen1.5-4b-chat,qwen1-5-4b-chat,needs_review,qwen2-5-14b-instruct,68.57142857142857,fuzzy needs review to qwen2-5-14b-instruct
+livebench,qwen1.5-72b-chat,qwen1-5-72b-chat,needs_review,qwen2-5-72b-instruct,72.22222222222221,fuzzy needs review to qwen2-5-72b-instruct
+livebench,qwen1.5-7b-chat,qwen1-5-7b-chat,needs_review,qwen2-5-7b-instruct,70.58823529411765,fuzzy needs review to qwen2-5-7b-instruct
+livebench,qwq-32b-preview,qwq-32b-preview,needs_review,qwen3-max-preview,68.75,fuzzy needs review to qwen3-max-preview
+livebench,sky-t1-32b-preview,sky-t1-32b-preview,needs_review,ernie-x1-32k-preview,68.42105263157895,fuzzy needs review to ernie-x1-32k-preview
+livebench,starling-lm-7b-beta,starling-lm-7b-beta,unmatched,,53.57142857142857,best fuzzy anyscale-huggingfaceh4-zephyr-7b-beta
+livebench,step-2-16k-202411,step-2-16k-202411,needs_review,step-2-16k,74.07407407407408,fuzzy needs review to step-2-16k
+livebench,vicuna-7b-v1.5,vicuna-7b-v1-5,unmatched,,55.172413793103445,best fuzzy anubis-70b-v1-1
+livebench,vicuna-7b-v1.5-16k,vicuna-7b-v1-5-16k,unmatched,,54.54545454545454,best fuzzy anubis-70b-v1-1
+livebench,wbot-4:347b_no_s,wbot-4,unmatched,,54.54545454545454,best fuzzy gpt-4
+livebench,yi-6b-chat,yi-6b-chat,needs_review,core42-jais-30b-chat,69.56521739130434,fuzzy needs review to jais-30b-chat
+livebench,zephyr-7b-alpha,zephyr-7b-alpha,unmatched,,59.25925925925925,best fuzzy healer-alpha
+livebench,zephyr-7b-beta,zephyr-7b-beta,unmatched,,56.00000000000001,best fuzzy grok-3-beta

@@ -1,0 +1,106 @@
+name: Update All
+
+on:
+  workflow_dispatch: {}
+  schedule:
+    # Weekly on Sunday at 01:00 UTC
+    - cron: "0 1 * * 0"
+
+jobs:
+  update-models:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    outputs:
+      models_updated: ${{ steps.models.outcome }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Cache pip dependencies
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-
+
+      - name: Create venv
+        run: python -m venv .venv
+
+      - name: Install deps
+        run: |
+          .venv/bin/python -m pip install -U pip
+          .venv/bin/python -m pip install -r requirements.txt
+
+      - name: Run model pipeline
+        id: models
+        run: .venv/bin/python -m modeldb_builder --json
+
+      - name: Commit model changes
+        if: success()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add db data/raw
+          if git diff --cached --quiet; then
+            echo "No model changes"
+          else
+            git commit -m "Update models ($(date -u +%Y-%m-%dT%H:%M:%SZ))"
+            git push
+          fi
+
+  update-benchmarks:
+    needs: update-models
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Cache pip dependencies
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-
+
+      - name: Install deps
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Install Playwright
+        run: |
+          pip install playwright
+          playwright install chromium --with-deps
+
+      - name: Run benchmark pipeline
+        run: python -m modeldb_builder.benchmarks --json
+
+      - name: Commit benchmark changes
+        if: success()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add db/ data/raw/ leaderboards/
+          if git diff --cached --quiet; then
+            echo "No benchmark changes"
+          else
+            git commit -m "Update benchmarks ($(date -u +%Y-%m-%dT%H:%M:%SZ))"
+            git push
+          fi

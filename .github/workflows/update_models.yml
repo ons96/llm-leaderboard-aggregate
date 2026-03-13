@@ -1,0 +1,104 @@
+name: Update model database
+
+on:
+  workflow_dispatch: {}
+  schedule:
+    # Daily at 02:00 UTC.
+    - cron: "0 2 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Cache pip dependencies
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-
+
+      - name: Create venv
+        run: python -m venv .venv
+
+      - name: Install deps
+        run: |
+          .venv/bin/python -m pip install -U pip
+          .venv/bin/python -m pip install -r requirements.txt
+
+      - name: Run pipeline
+        run: .venv/bin/python -m modeldb_builder --json
+
+      - name: Validate output
+        id: validate
+        run: |
+          # Check DB files exist and have sufficient rows
+          if [ ! -f "db/models.db" ]; then
+            echo "ERROR: db/models.db not found"
+            exit 1
+          fi
+          if [ ! -f "db/models_unique.db" ]; then
+            echo "ERROR: db/models_unique.db not found"
+            exit 1
+          fi
+
+          # Check row counts (should be > 1000 unique models)
+          MODEL_COUNT=$(python3 -c "import sqlite3; conn = sqlite3.connect('db/models_unique.db'); cur = conn.cursor(); cur.execute('SELECT COUNT(*) FROM models_unique'); print(cur.fetchone()[0])")
+          echo "Unique models: $MODEL_COUNT"
+          if [ "$MODEL_COUNT" -lt 1000 ]; then
+            echo "ERROR: Expected > 1000 models, got $MODEL_COUNT"
+            exit 1
+          fi
+
+          # Check scrape manifest
+          if [ ! -f "data/raw/scrape_manifest.json" ]; then
+            echo "ERROR: data/raw/scrape_manifest.json not found"
+            exit 1
+          fi
+
+          echo "Validation passed"
+
+      - name: Commit changes
+        if: success()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add db data/raw
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+
+          # Extract row counts from scrape_manifest.json for commit message
+          UNIQUE_COUNT=$(python3 -c "import json; d=json.load(open('data/raw/scrape_manifest.json')); print(d.get('sources',{}).get('litellm',{}).get('row_count',0) + d.get('sources',{}).get('openrouter',{}).get('row_count',0) + d.get('sources',{}).get('modelsdev',{}).get('row_count',0))")
+          PROVIDER_COUNT=$(python3 -c "import sqlite3; conn = sqlite3.connect('db/models_unique.db'); cur = conn.cursor(); cur.execute('SELECT COUNT(*) FROM models_unique'); print(cur.fetchone()[0])")
+
+          git commit -m "Update model database: $PROVIDER_COUNT unique models, $UNIQUE_COUNT source records ($(date -u +%Y-%m-%dT%H:%M:%SZ))"
+          git push
+
+      - name: Report failure
+        if: failure()
+        run: |
+          echo "::warning::Model database update failed. Check workflow logs for details."
+          echo "Failure summary:"
+          echo "- db/models.db exists: $([ -f 'db/models.db' ] && echo 'yes' || echo 'no')"
+          echo "- db/models_unique.db exists: $([ -f 'db/models_unique.db' ] && echo 'yes' || echo 'no')"
+          echo "- data/raw/scrape_manifest.json exists: $([ -f 'data/raw/scrape_manifest.json' ] && echo 'yes' || echo 'no')"
+          exit 1

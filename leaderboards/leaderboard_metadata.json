@@ -1,0 +1,84 @@
+{
+  "generated_at": "2026-03-13T18:00:15+00:00",
+  "manual_overrides": {
+    "applied": [
+      "claude-opus-4-6",
+      "claude-sonnet-4-6",
+      "deepseek-r1",
+      "deepseek-v3-2",
+      "devstral-2512",
+      "gemini-3-flash",
+      "gemini-3-pro",
+      "glm-4-7",
+      "glm-5",
+      "gpt-5-2",
+      "gpt-5-2-codex",
+      "kimi-k2-5",
+      "kimi-k2-thinking",
+      "minimax-m2-5",
+      "qwen3-5-397b-a17b",
+      "qwen3-coder-480b-a35b-instruct",
+      "qwen3-coder-next"
+    ],
+    "unmatched": []
+  },
+  "models": {
+    "coverage": {
+      "full": 42,
+      "none": 3416,
+      "partial": 318
+    },
+    "total": 3776
+  },
+  "source_status": {
+    "artificial_analysis": {
+      "error": null,
+      "ok": true,
+      "row_count": 0,
+      "url": "https://artificialanalysis.ai/leaderboards/models"
+    },
+    "livebench": {
+      "error": null,
+      "ok": true,
+      "row_count": 195,
+      "url": "https://huggingface.co/datasets/livebench/model_judgment/resolve/main/data/leaderboard-00000-of-00001.parquet"
+    },
+    "livecodebench": {
+      "error": null,
+      "ok": true,
+      "row_count": 198,
+      "url": "https://pricepertoken.com/leaderboards/benchmark/livecodebench"
+    },
+    "llmstats": {
+      "error": "no llm-stats rows parsed",
+      "ok": false,
+      "row_count": 0,
+      "url": null
+    },
+    "lmarena": {
+      "error": null,
+      "ok": true,
+      "row_count": 255,
+      "url": "https://openlm.ai/chatbot-arena/"
+    },
+    "swebench": {
+      "error": null,
+      "ok": true,
+      "row_count": 48,
+      "url": "https://www.swebench.com"
+    },
+    "swerebench": {
+      "error": null,
+      "ok": true,
+      "row_count": 36,
+      "url": "https://swe-rebench.com"
+    },
+    "valsai": {
+      "error": "BrowserType.launch: Target page, context or browser has been closed\nBrowser logs:\n\n<launching> /home/osees/.cache/ms-playwright/chromium_headless_shell-1208/chrome-headless-shell-linux64/chrome-headless-shell --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,BoundaryEventDispatchTracksNodeRemoval,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensO ... (truncated)",
+      "ok": false,
+      "row_count": 0,
+      "url": null
+    }
+  },
+  "unmatched_rows": 84
+}

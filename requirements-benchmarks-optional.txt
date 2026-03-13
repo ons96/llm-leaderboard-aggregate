@@ -1,0 +1,18 @@
+# Optional dependencies for Phase 2 benchmark aggregation.
+#
+# NOTE: This repo's main dependencies live in requirements.txt, but Phase 2
+# intentionally degrades gracefully when these are missing.
+
+rapidfuzz>=3.0
+cloudscraper>=1.2
+beautifulsoup4>=4.12
+lxml>=5.0
+
+# If you want to parse LM Arena ELO pickles directly:
+pandas>=2.0
+
+# If you want to parse LiveBench HF parquet directly:
+pyarrow>=14.0
+
+# If you need JS-rendered scraping fallbacks:
+playwright>=1.40
