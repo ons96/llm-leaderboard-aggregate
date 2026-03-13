@@ -1105,4 +1105,13 @@ def run(paths: Paths | None = None, *, timeout_s: int = 30) -> dict[str, Any]:
     # Unmatched benchmark rows.
     _write_unmatched_csv(paths, unmatched, promote=True)
 
+    # Generate per-virtual-model YAML fallback lists for gateway consumption.
+    try:
+        from ..yaml_export import generate_virtual_model_yaml
+
+        yaml_meta = generate_virtual_model_yaml(paths)
+        meta["virtual_models_generated"] = yaml_meta
+    except Exception:
+        pass  # YAML export is best-effort; don't block Phase 2.
+
     return meta

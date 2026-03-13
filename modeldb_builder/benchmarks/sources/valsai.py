@@ -11,7 +11,16 @@ from ..http import http_get
 from ..types import ModelBenchmarkRow
 
 
-VALSAI_URL = "https://www.vals.ai/home"
+VALSAI_URL = "https://www.vals.ai/benchmarks/swebench"
+
+# Ordered list of URLs to try.  The dedicated SWE-bench page is most likely
+# to contain the table we need; the others are fallbacks in case the URL
+# structure changes again.
+_CANDIDATE_URLS: list[str] = [
+    "https://www.vals.ai/benchmarks/swebench",
+    "https://www.vals.ai/benchmarks/swe-bench",
+    "https://www.vals.ai/home",
+]
 
 
 def _parse_pct(s: str) -> float | None:
@@ -39,14 +48,18 @@ def _rows_from_html(html: str) -> list[dict[str, Any]]:
             continue
         headers = [th.get_text(" ", strip=True) for th in trs[0].find_all(["th", "td"])]
         hnorm = [h.lower() for h in headers]
-        if not any("swe" in h for h in hnorm):
+        # Accept tables that mention "swe" OR have an "accuracy" column (the
+        # dedicated SWE-bench page may not repeat "swe" in every header).
+        if not any("swe" in h or "accuracy" in h for h in hnorm):
             continue
         model_i = None
         score_i = None
         for i, h in enumerate(hnorm):
-            if model_i is None and ("model" in h or "name" in h):
+            if model_i is None and ("model" in h or "name" in h or "provider" in h):
                 model_i = i
-            if score_i is None and ("verified" in h or "resolved" in h or "swe" in h):
+            if score_i is None and (
+                "verified" in h or "resolved" in h or "swe" in h or "accuracy" in h
+            ):
                 score_i = i
         if model_i is None or score_i is None:
             continue
@@ -65,7 +78,7 @@ def _rows_from_html(html: str) -> list[dict[str, Any]]:
     return best
 
 
-def _playwright_render_html(timeout_s: int = 30) -> str:
+def _playwright_render_html(url: str, timeout_s: int = 30) -> str:
     try:
         from playwright.sync_api import sync_playwright  # type: ignore
     except Exception as e:  # pragma: no cover
@@ -75,23 +88,35 @@ def _playwright_render_html(timeout_s: int = 30) -> str:
         browser = p.chromium.launch()
         try:
             page = browser.new_page()
-            page.goto(VALSAI_URL, wait_until="networkidle", timeout=timeout_s * 1000)
+            page.goto(url, wait_until="networkidle", timeout=timeout_s * 1000)
             return page.content()
         finally:
             browser.close()
 
 
 def fetch_valsai_json(timeout_s: int = 30) -> tuple[str | None, bytes]:
-    # Best-effort: try requests first.
-    res = http_get(VALSAI_URL, timeout_s=timeout_s, retries=0)
-    rows = _rows_from_html(res.body.decode("utf-8", "replace"))
-    if rows:
-        return res.url, json.dumps(rows, sort_keys=True).encode("utf-8")
+    # Try each candidate URL with a plain HTTP GET first.
+    for url in _CANDIDATE_URLS:
+        try:
+            res = http_get(url, timeout_s=timeout_s, retries=0)
+            rows = _rows_from_html(res.body.decode("utf-8", "replace"))
+            if rows:
+                return res.url, json.dumps(rows, sort_keys=True).encode("utf-8")
+        except Exception:
+            pass  # URL may 404 or timeout; move on.
 
-    # Then try Playwright if available.
-    html = _playwright_render_html(timeout_s=timeout_s)
-    rows = _rows_from_html(html)
-    return VALSAI_URL, json.dumps(rows, sort_keys=True).encode("utf-8")
+    # Playwright fallback: JS-rendered pages are likely needed.
+    for url in _CANDIDATE_URLS:
+        try:
+            html = _playwright_render_html(url, timeout_s=timeout_s)
+            rows = _rows_from_html(html)
+            if rows:
+                return url, json.dumps(rows, sort_keys=True).encode("utf-8")
+        except Exception:
+            pass  # Playwright may not be installed or URL may fail.
+
+    # Return empty result so the pipeline can degrade gracefully.
+    return VALSAI_URL, json.dumps([], sort_keys=True).encode("utf-8")
 
 
 def validate_valsai_json(data: bytes) -> ValidationResult:

@@ -79,7 +79,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add db data/raw
+          git add db data/raw data/known_free_providers.json data/new_free_providers_report.json 2>/dev/null || true
 
           if git diff --cached --quiet; then
             echo "No changes to commit."

@@ -354,4 +354,17 @@ def run_full_update(paths: Paths) -> dict[str, Any]:
         },
     }
     atomic_write_json(paths.db_dir / "last_run_summary.json", summary)
+
+    # ---- Free provider discovery diff ----
+    try:
+        from .discovery import run_discovery_diff
+
+        discovery_report = run_discovery_diff(paths)
+        summary["discovery"] = {
+            "new_free_providers": discovery_report.get("new_count", 0),
+            "total_free_endpoints": discovery_report.get("total_free_endpoints", 0),
+        }
+    except Exception:
+        pass  # Discovery diff is best-effort; don't block Phase 1.
+
     return summary

@@ -74,12 +74,41 @@ def _rows_from_html(html: str) -> list[dict[str, Any]]:
     return best
 
 
+def _playwright_render_html(timeout_s: int = 30) -> str:
+    """Render the page with a headless browser to execute JavaScript."""
+    try:
+        from playwright.sync_api import sync_playwright  # type: ignore
+    except Exception as e:  # pragma: no cover
+        raise RuntimeError(f"playwright not available: {e}") from e
+
+    with sync_playwright() as p:  # pragma: no cover
+        browser = p.chromium.launch()
+        try:
+            page = browser.new_page()
+            page.goto(LLMSTATS_URL, wait_until="networkidle", timeout=timeout_s * 1000)
+            return page.content()
+        finally:
+            browser.close()
+
+
 def fetch_llmstats_json(timeout_s: int = 30) -> tuple[str | None, bytes]:
+    # Best-effort: try plain HTTP first.
     res = http_get(LLMSTATS_URL, timeout_s=timeout_s, retries=1)
     rows = _rows_from_html(res.body.decode("utf-8", "replace"))
+    if rows:
+        return res.url, json.dumps(rows, sort_keys=True).encode("utf-8")
+
+    # Plain HTTP returned no rows (likely JS-rendered page) — try Playwright.
+    try:
+        html = _playwright_render_html(timeout_s=timeout_s)
+        rows = _rows_from_html(html)
+    except Exception:
+        # Playwright unavailable or failed; fall through to the error below.
+        rows = []
+
     if not rows:
         raise RuntimeError("no llm-stats rows parsed")
-    return res.url, json.dumps(rows, sort_keys=True).encode("utf-8")
+    return LLMSTATS_URL, json.dumps(rows, sort_keys=True).encode("utf-8")
 
 
 def validate_llmstats_json(data: bytes) -> ValidationResult:

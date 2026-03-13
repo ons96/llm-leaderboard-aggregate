@@ -33,6 +33,7 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
+          pip install -r requirements-benchmarks-optional.txt || true
 
       - name: Install Playwright
         run: |
