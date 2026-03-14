@@ -1,0 +1,3346 @@
+{
+  "generated_at": "2026-03-14T03:59:49+00:00",
+  "new_count": 417,
+  "new_providers": [
+    {
+      "context_window_tokens": 204800,
+      "data_source": "modelsdev",
+      "model_id": "coding-glm-4-7-free",
+      "needs_review": true,
+      "provider_model_id": "coding-glm-4.7-free",
+      "provider_name": "aihubmix"
+    },
+    {
+      "context_window_tokens": 204800,
+      "data_source": "modelsdev",
+      "model_id": "coding-glm-5-free",
+      "needs_review": true,
+      "provider_model_id": "coding-glm-5-free",
+      "provider_name": "aihubmix"
+    },
+    {
+      "context_window_tokens": 204800,
+      "data_source": "modelsdev",
+      "model_id": "coding-minimax-m2-1-free",
+      "needs_review": true,
+      "provider_model_id": "coding-minimax-m2.1-free",
+      "provider_name": "aihubmix"
+    },
+    {
+      "context_window_tokens": 32768,
+      "data_source": "modelsdev",
+      "model_id": "deepseek-r1-distill-llama-8b",
+      "needs_review": true,
+      "provider_model_id": "deepseek-r1-distill-llama-8b",
+      "provider_name": "alibaba-cn"
+    },
+    {
+      "context_window_tokens": 32768,
+      "data_source": "modelsdev",
+      "model_id": "deepseek-r1-distill-qwen-1-5b",
+      "needs_review": true,
+      "provider_model_id": "deepseek-r1-distill-qwen-1-5b",
+      "provider_name": "alibaba-cn"
+    },
+    {
+      "context_window_tokens": 196608,
+      "data_source": "modelsdev",
+      "model_id": "minimax-m2-5",
+      "needs_review": true,
+      "provider_model_id": "MiniMax-M2.5",
+      "provider_name": "alibaba-coding-plan-cn"
+    },
+    {
+      "context_window_tokens": 202752,
+      "data_source": "modelsdev",
+      "model_id": "glm-4-7",
+      "needs_review": true,
+      "provider_model_id": "glm-4.7",
+      "provider_name": "alibaba-coding-plan-cn"
+    },
+    {
+      "context_window_tokens": 202752,
+      "data_source": "modelsdev",
+      "model_id": "glm-5",
+      "needs_review": true,
+      "provider_model_id": "glm-5",
+      "provider_name": "alibaba-coding-plan-cn"
+    },
+    {
+      "context_window_tokens": 262144,
+      "data_source": "modelsdev",
+      "model_id": "kimi-k2-5",
+      "needs_review": true,
+      "provider_model_id": "kimi-k2.5",
+      "provider_name": "alibaba-coding-plan-cn"
+    },
+    {
+      "context_window_tokens": 262144,
+      "data_source": "modelsdev",
+      "model_id": "qwen3-coder-next",
+      "needs_review": true,
+      "provider_model_id": "qwen3-coder-next",
+      "provider_name": "alibaba-coding-plan-cn"
+    },
+    {
+      "context_window_tokens": 1000000,
+      "data_source": "modelsdev",
+      "model_id": "qwen3-coder-plus",
+      "needs_review": true,
+      "provider_model_id": "qwen3-coder-plus",
+      "provider_name": "alibaba-coding-plan-cn"
+    },
+    {
+      "context_window_tokens": 262144,
+      "data_source": "modelsdev",
+      "model_id": "qwen3-max-2026-01-23",
+      "needs_review": true,
+      "provider_model_id": "qwen3-max-2026-01-23",
+      "provider_name": "alibaba-coding-plan-cn"
+    },
+    {
+      "context_window_tokens": 1000000,
+      "data_source": "modelsdev",
+      "model_id": "qwen3-5-plus",
+      "needs_review": true,
+      "provider_model_id": "qwen3.5-plus",
+      "provider_name": "alibaba-coding-plan-cn"
+    },
+    {
+      "context_window_tokens": 196608,
+      "data_source": "modelsdev",
+      "model_id": "minimax-m2-5",
+      "needs_review": true,
+      "provider_model_id": "MiniMax-M2.5",
+      "provider_name": "alibaba-coding-plan"
+    },
+    {
+      "context_window_tokens": 202752,
+      "data_source": "modelsdev",
+      "model_id": "glm-4-7",
+      "needs_review": true,
+      "provider_model_id": "glm-4.7",
+      "provider_name": "alibaba-coding-plan"
+    },
+    {
+      "context_window_tokens": 202752,
+      "data_source": "modelsdev",
+      "model_id": "glm-5",
+      "needs_review": true,
+      "provider_model_id": "glm-5",
+      "provider_name": "alibaba-coding-plan"
+    },
+    {
+      "context_window_tokens": 262144,
+      "data_source": "modelsdev",
+      "model_id": "kimi-k2-5",
+      "needs_review": true,
+      "provider_model_id": "kimi-k2.5",
+      "provider_name": "alibaba-coding-plan"
+    },
+    {
+      "context_window_tokens": 262144,
+      "data_source": "modelsdev",
+      "model_id": "qwen3-coder-next",
+      "needs_review": true,
+      "provider_model_id": "qwen3-coder-next",
+      "provider_name": "alibaba-coding-plan"
+    },
+    {
+      "context_window_tokens": 1000000,
+      "data_source": "modelsdev",
+      "model_id": "qwen3-coder-plus",
+      "needs_review": true,
+      "provider_model_id": "qwen3-coder-plus",
+      "provider_name": "alibaba-coding-plan"
+    },
+    {
+      "context_window_tokens": 262144,
+      "data_source": "modelsdev",
+      "model_id": "qwen3-max-2026-01-23",
+      "needs_review": true,
+      "provider_model_id": "qwen3-max-2026-01-23",
+      "provider_name": "alibaba-coding-plan"
+    },
+    {
+      "context_window_tokens": 1000000,
+      "data_source": "modelsdev",
+      "model_id": "qwen3-5-plus",
+      "needs_review": true,
+      "provider_model_id": "qwen3.5-plus",
+      "provider_name": "alibaba-coding-plan"
+    },
+    {
+      "context_window_tokens": 128000,
+      "data_source": "modelsdev",
+      "model_id": "workers-ai-@cf-deepgram-aura-2-en",
+      "needs_review": true,
+      "provider_model_id": "workers-ai/@cf/deepgram/aura-2-en",
+      "provider_name": "cloudflare-ai-gateway"
+    },
+    {
+      "context_window_tokens": 128000,
+      "data_source": "modelsdev",
+      "model_id": "workers-ai-@cf-deepgram-aura-2-es",
+      "needs_review": true,
+      "provider_model_id": "workers-ai/@cf/deepgram/aura-2-es",
+      "provider_name": "cloudflare-ai-gateway"
+    },
+    {
+      "context_window_tokens": 128000,
+      "data_source": "modelsdev",
+      "model_id": "workers-ai-@cf-deepgram-nova-3",
+      "needs_review": true,
+      "provider_model_id": "workers-ai/@cf/deepgram/nova-3",
+      "provider_name": "cloudflare-ai-gateway"
+    },
+    {
+      "context_window_tokens": 128000,
+      "data_source": "modelsdev",
+      "model_id": "workers-ai-@cf-facebook-bart-large-cnn",
+      "needs_review": true,
+      "provider_model_id": "workers-ai/@cf/facebook/bart-large-cnn",
+      "provider_name": "cloudflare-ai-gateway"
+    },
+    {
+      "context_window_tokens": 128000,
+      "data_source": "modelsdev",
+      "model_id": "workers-ai-@cf-myshell-ai-melotts",
+      "needs_review": true,
+      "provider_model_id": "workers-ai/@cf/myshell-ai/melotts",
+      "provider_name": "cloudflare-ai-gateway"
+    },
+    {
+      "context_window_tokens": 128000,
+      "data_source": "modelsdev",
+      "model_id": "workers-ai-@cf-pipecat-ai-smart-turn-v2",
+      "needs_review": true,
+      "provider_model_id": "workers-ai/@cf/pipecat-ai/smart-turn-v2",
+      "provider_name": "cloudflare-ai-gateway"
+    },
+    {
+      "context_window_tokens": 128000,
+      "data_source": "modelsdev",
+      "model_id": "@cf-deepgram-aura-2-en",
+      "needs_review": true,
+      "provider_model_id": "@cf/deepgram/aura-2-en",
+      "provider_name": "cloudflare-workers-ai"
+    },
+    {
+      "context_window_tokens": 128000,
+      "data_source": "modelsdev",
+      "model_id": "@cf-deepgram-aura-2-es",
+      "needs_review": true,
+      "provider_model_id": "@cf/deepgram/aura-2-es",
+      "provider_name": "cloudflare-workers-ai"
+    },
+    {
+      "context_window_tokens": 128000,
+      "data_source": "modelsdev",
+      "model_id": "@cf-deepgram-nova-3",
+      "needs_review": true,
+      "provider_model_id": "@cf/deepgram/nova-3",
+      "provider_name": "cloudflare-workers-ai"
+    },
+    {
+      "context_window_tokens": 128000,
+      "data_source": "modelsdev",
+      "model_id": "@cf-facebook-bart-large-cnn",
+      "needs_review": true,
+      "provider_model_id": "@cf/facebook/bart-large-cnn",
+      "provider_name": "cloudflare-workers-ai"
+    },
+    {
+      "context_window_tokens": 128000,
+      "data_source": "modelsdev",
+      "model_id": "@cf-myshell-ai-melotts",
+      "needs_review": true,
+      "provider_model_id": "@cf/myshell-ai/melotts",
+      "provider_name": "cloudflare-workers-ai"
+    },
+    {
+      "context_window_tokens": 128000,
+      "data_source": "modelsdev",
+      "model_id": "@cf-pipecat-ai-smart-turn-v2",
+      "needs_review": true,
+      "provider_model_id": "@cf/pipecat-ai/smart-turn-v2",
+      "provider_name": "cloudflare-workers-ai"
+    },
+    {
+      "context_window_tokens": 262000,
+      "data_source": "modelsdev",
+      "model_id": "devstral-2512",
+      "needs_review": true,
+      "provider_model_id": "devstral-2512",
+      "provider_name": "cortecs"
+    },
+    {
+      "context_window_tokens": 262000,
+      "data_source": "modelsdev",
+      "model_id": "devstral-small-2512",
+      "needs_review": true,
+      "provider_model_id": "devstral-small-2512",
+      "provider_name": "cortecs"
+    },
+    {
+      "context_window_tokens": 128000,
+      "data_source": "modelsdev",
+      "model_id": "gpt-oss-120b",
+      "needs_review": true,
+      "provider_model_id": "gpt-oss-120b",
+      "provider_name": "cortecs"
+    },
+    {
+      "context_window_tokens": 128000,
+      "data_source": "modelsdev",
+      "model_id": "llama-3-1-405b-instruct",
+      "needs_review": true,
+      "provider_model_id": "llama-3.1-405b-instruct",
+      "provider_name": "cortecs"
+    },
+    {
+      "context_window_tokens": 128000,
+      "data_source": "modelsdev",
+      "model_id": "claude-haiku-4-5",
+      "needs_review": true,
+      "provider_model_id": "claude-haiku-4.5",
+      "provider_name": "github-copilot"
+    },
+    {
+      "context_window_tokens": 128000,
+      "data_source": "modelsdev",
+      "model_id": "claude-opus-4-5",
+      "needs_review": true,
+      "provider_model_id": "claude-opus-4.5",
+      "provider_name": "github-copilot"
+    },
+    {
+      "context_window_tokens": 128000,
+      "data_source": "modelsdev",
+      "model_id": "claude-opus-4-6",
+      "needs_review": true,
+      "provider_model_id": "claude-opus-4.6",
+      "provider_name": "github-copilot"
+    },
+    {
+      "context_window_tokens": 80000,
+      "data_source": "modelsdev",
+      "model_id": "claude-opus-41",
+      "needs_review": true,
+      "provider_model_id": "claude-opus-41",
+      "provider_name": "github-copilot"
+    },
+    {
+      "context_window_tokens": 128000,
+      "data_source": "modelsdev",
+      "model_id": "claude-sonnet-4",
+      "needs_review": true,
+      "provider_model_id": "claude-sonnet-4",
+      "provider_name": "github-copilot"
+    },
+    {
+      "context_window_tokens": 128000,
+      "data_source": "modelsdev",
+      "model_id": "claude-sonnet-4-5",
+      "needs_review": true,
+      "provider_model_id": "claude-sonnet-4.5",
+      "provider_name": "github-copilot"
+    },
+    {
+      "context_window_tokens": 128000,
+      "data_source": "modelsdev",
+      "model_id": "claude-sonnet-4-6",
+      "needs_review": true,
+      "provider_model_id": "claude-sonnet-4.6",
+      "provider_name": "github-copilot"
+    },
+    {
+      "context_window_tokens": 128000,
+      "data_source": "modelsdev",
+      "model_id": "gemini-2-5-pro",
+      "needs_review": true,
+      "provider_model_id": "gemini-2.5-pro",
+      "provider_name": "github-copilot"
+    },
+    {
+      "context_window_tokens": 128000,
+      "data_source": "modelsdev",
+      "model_id": "gemini-3-flash-preview",
+      "needs_review": true,
+      "provider_model_id": "gemini-3-flash-preview",
+      "provider_name": "github-copilot"
+    },
+    {
+      "context_window_tokens": 128000,
+      "data_source": "modelsdev",
+      "model_id": "gemini-3-pro-preview",
+      "needs_review": true,
+      "provider_model_id": "gemini-3-pro-preview",
+      "provider_name": "github-copilot"
+    },
+    {
+      "context_window_tokens": 128000,
+      "data_source": "modelsdev",
+      "model_id": "gemini-3-1-pro-preview",
+      "needs_review": true,
+      "provider_model_id": "gemini-3.1-pro-preview",
+      "provider_name": "github-copilot"
+    },
+    {
+      "context_window_tokens": 64000,
+      "data_source": "modelsdev",
+      "model_id": "gpt-4-1",
+      "needs_review": true,
+      "provider_model_id": "gpt-4.1",
+      "provider_name": "github-copilot"
+    },
+    {
+      "context_window_tokens": 64000,
+      "data_source": "modelsdev",
+      "model_id": "gpt-4o",
+      "needs_review": true,
+      "provider_model_id": "gpt-4o",
+      "provider_name": "github-copilot"
+    },
+    {
+      "context_window_tokens": 128000,
+      "data_source": "modelsdev",
+      "model_id": "gpt-5",
+      "needs_review": true,
+      "provider_model_id": "gpt-5",
+      "provider_name": "github-copilot"
+    },
+    {
+      "context_window_tokens": 128000,
+      "data_source": "modelsdev",
+      "model_id": "gpt-5-mini",
+      "needs_review": true,
+      "provider_model_id": "gpt-5-mini",
+      "provider_name": "github-copilot"
+    },
+    {
+      "context_window_tokens": 128000,
+      "data_source": "modelsdev",
+      "model_id": "gpt-5-1",
+      "needs_review": true,
+      "provider_model_id": "gpt-5.1",
+      "provider_name": "github-copilot"
+    },
+    {
+      "context_window_tokens": 128000,
+      "data_source": "modelsdev",
+      "model_id": "gpt-5-1-codex",
+      "needs_review": true,
+      "provider_model_id": "gpt-5.1-codex",
+      "provider_name": "github-copilot"
+    },
+    {
+      "context_window_tokens": 128000,
+      "data_source": "modelsdev",
+      "model_id": "gpt-5-1-codex-max",
+      "needs_review": true,
+      "provider_model_id": "gpt-5.1-codex-max",
+      "provider_name": "github-copilot"
+    },
+    {
+      "context_window_tokens": 128000,
+      "data_source": "modelsdev",
+      "model_id": "gpt-5-1-codex-mini",
+      "needs_review": true,
+      "provider_model_id": "gpt-5.1-codex-mini",
+      "provider_name": "github-copilot"
+    },
+    {
+      "context_window_tokens": 264000,
+      "data_source": "modelsdev",
+      "model_id": "gpt-5-2",
+      "needs_review": true,
+      "provider_model_id": "gpt-5.2",
+      "provider_name": "github-copilot"
+    },
+    {
+      "context_window_tokens": 400000,
+      "data_source": "modelsdev",
+      "model_id": "gpt-5-2-codex",
+      "needs_review": true,
+      "provider_model_id": "gpt-5.2-codex",
+      "provider_name": "github-copilot"
+    },
+    {
+      "context_window_tokens": 400000,
+      "data_source": "modelsdev",
+      "model_id": "gpt-5-3-codex",
+      "needs_review": true,
+      "provider_model_id": "gpt-5.3-codex",
+      "provider_name": "github-copilot"
+    },
+    {
+      "context_window_tokens": 400000,
+      "data_source": "modelsdev",
+      "model_id": "gpt-5-4",
+      "needs_review": true,
+      "provider_model_id": "gpt-5.4",
+      "provider_name": "github-copilot"
+    },
+    {
+      "context_window_tokens": 128000,
+      "data_source": "modelsdev",
+      "model_id": "grok-code-fast-1",
+      "needs_review": true,
+      "provider_model_id": "grok-code-fast-1",
+      "provider_name": "github-copilot"
+    },
+    {
+      "context_window_tokens": 256000,
+      "data_source": "modelsdev",
+      "model_id": "ai21-labs-ai21-jamba-1-5-large",
+      "needs_review": true,
+      "provider_model_id": "ai21-labs/ai21-jamba-1.5-large",
+      "provider_name": "github-models"
+    },
+    {
+      "context_window_tokens": 256000,
+      "data_source": "modelsdev",
+      "model_id": "ai21-labs-ai21-jamba-1-5-mini",
+      "needs_review": true,
+      "provider_model_id": "ai21-labs/ai21-jamba-1.5-mini",
+      "provider_name": "github-models"
+    },
+    {
+      "context_window_tokens": 128000,
+      "data_source": "modelsdev",
+      "model_id": "cohere-command-a",
+      "needs_review": true,
+      "provider_model_id": "cohere/cohere-command-a",
+      "provider_name": "github-models"
+    },
+    {
+      "context_window_tokens": 128000,
+      "data_source": "modelsdev",
+      "model_id": "cohere-command-r",
+      "needs_review": true,
+      "provider_model_id": "cohere/cohere-command-r",
+      "provider_name": "github-models"
+    },
+    {
+      "context_window_tokens": 128000,
+      "data_source": "modelsdev",
+      "model_id": "cohere-command-r-08-2024",
+      "needs_review": true,
+      "provider_model_id": "cohere/cohere-command-r-08-2024",
+      "provider_name": "github-models"
+    },
+    {
+      "context_window_tokens": 128000,
+      "data_source": "modelsdev",
+      "model_id": "cohere-command-r-plus",
+      "needs_review": true,
+      "provider_model_id": "cohere/cohere-command-r-plus",
+      "provider_name": "github-models"
+    },
+    {
+      "context_window_tokens": 128000,
+      "data_source": "modelsdev",
+      "model_id": "cohere-command-r-plus-08-2024",
+      "needs_review": true,
+      "provider_model_id": "cohere/cohere-command-r-plus-08-2024",
+      "provider_name": "github-models"
+    },
+    {
+      "context_window_tokens": 8192,
+      "data_source": "modelsdev",
+      "model_id": "core42-jais-30b-chat",
+      "needs_review": true,
+      "provider_model_id": "core42/jais-30b-chat",
+      "provider_name": "github-models"
+    },
+    {
+      "context_window_tokens": 65536,
+      "data_source": "modelsdev",
+      "model_id": "deepseek-deepseek-r1",
+      "needs_review": true,
+      "provider_model_id": "deepseek/deepseek-r1",
+      "provider_name": "github-models"
+    },
+    {
+      "context_window_tokens": 65536,
+      "data_source": "modelsdev",
+      "model_id": "deepseek-deepseek-r1-0528",
+      "needs_review": true,
+      "provider_model_id": "deepseek/deepseek-r1-0528",
+      "provider_name": "github-models"
+    },
+    {
+      "context_window_tokens": 128000,
+      "data_source": "modelsdev",
+      "model_id": "deepseek-deepseek-v3-0324",
+      "needs_review": true,
+      "provider_model_id": "deepseek/deepseek-v3-0324",
+      "provider_name": "github-models"
+    },
+    {
+      "context_window_tokens": 128000,
+      "data_source": "modelsdev",
+      "model_id": "meta-llama-3-2-11b-vision-instruct",
+      "needs_review": true,
+      "provider_model_id": "meta/llama-3.2-11b-vision-instruct",
+      "provider_name": "github-models"
+    },
+    {
+      "context_window_tokens": 128000,
+      "data_source": "modelsdev",
+      "model_id": "meta-llama-3-2-90b-vision-instruct",
+      "needs_review": true,
+      "provider_model_id": "meta/llama-3.2-90b-vision-instruct",
+      "provider_name": "github-models"
+    },
+    {
+      "context_window_tokens": 128000,
+      "data_source": "modelsdev",
+      "model_id": "meta-llama-3-3-70b-instruct",
+      "needs_review": true,
+      "provider_model_id": "meta/llama-3.3-70b-instruct",
+      "provider_name": "github-models"
+    },
+    {
+      "context_window_tokens": 128000,
+      "data_source": "modelsdev",
+      "model_id": "meta-llama-4-maverick-17b-128e-instruct-fp8",
+      "needs_review": true,
+      "provider_model_id": "meta/llama-4-maverick-17b-128e-instruct-fp8",
+      "provider_name": "github-models"
+    },
+    {
+      "context_window_tokens": 128000,
+      "data_source": "modelsdev",
+      "model_id": "meta-llama-4-scout-17b-16e-instruct",
+      "needs_review": true,
+      "provider_model_id": "meta/llama-4-scout-17b-16e-instruct",
+      "provider_name": "github-models"
+    },
+    {
+      "context_window_tokens": 8192,
+      "data_source": "modelsdev",
+      "model_id": "meta-meta-llama-3-70b-instruct",
+      "needs_review": true,
+      "provider_model_id": "meta/meta-llama-3-70b-instruct",
+      "provider_name": "github-models"
+    },
+    {
+      "context_window_tokens": 8192,
+      "data_source": "modelsdev",
+      "model_id": "meta-meta-llama-3-8b-instruct",
+      "needs_review": true,
+      "provider_model_id": "meta/meta-llama-3-8b-instruct",
+      "provider_name": "github-models"
+    },
+    {
+      "context_window_tokens": 128000,
+      "data_source": "modelsdev",
+      "model_id": "meta-meta-llama-3-1-405b-instruct",
+      "needs_review": true,
+      "provider_model_id": "meta/meta-llama-3.1-405b-instruct",
+      "provider_name": "github-models"
+    },
+    {
+      "context_window_tokens": 128000,
+      "data_source": "modelsdev",
+      "model_id": "meta-meta-llama-3-1-70b-instruct",
+      "needs_review": true,
+      "provider_model_id": "meta/meta-llama-3.1-70b-instruct",
+      "provider_name": "github-models"
+    },
+    {
+      "context_window_tokens": 128000,
+      "data_source": "modelsdev",
+      "model_id": "meta-meta-llama-3-1-8b-instruct",
+      "needs_review": true,
+      "provider_model_id": "meta/meta-llama-3.1-8b-instruct",
+      "provider_name": "github-models"
+    },
+    {
+      "context_window_tokens": 65536,
+      "data_source": "modelsdev",
+      "model_id": "microsoft-mai-ds-r1",
+      "needs_review": true,
+      "provider_model_id": "microsoft/mai-ds-r1",
+      "provider_name": "github-models"
+    },
+    {
+      "context_window_tokens": 128000,
+      "data_source": "modelsdev",
+      "model_id": "microsoft-phi-3-medium-128k-instruct",
+      "needs_review": true,
+      "provider_model_id": "microsoft/phi-3-medium-128k-instruct",
+      "provider_name": "github-models"
+    },
+    {
+      "context_window_tokens": 4096,
+      "data_source": "modelsdev",
+      "model_id": "microsoft-phi-3-medium-4k-instruct",
+      "needs_review": true,
+      "provider_model_id": "microsoft/phi-3-medium-4k-instruct",
+      "provider_name": "github-models"
+    },
+    {
+      "context_window_tokens": 128000,
+      "data_source": "modelsdev",
+      "model_id": "microsoft-phi-3-mini-128k-instruct",
+      "needs_review": true,
+      "provider_model_id": "microsoft/phi-3-mini-128k-instruct",
+      "provider_name": "github-models"
+    },
+    {
+      "context_window_tokens": 4096,
+      "data_source": "modelsdev",
+      "model_id": "microsoft-phi-3-mini-4k-instruct",
+      "needs_review": true,
+      "provider_model_id": "microsoft/phi-3-mini-4k-instruct",
+      "provider_name": "github-models"
+    },
+    {
+      "context_window_tokens": 128000,
+      "data_source": "modelsdev",
+      "model_id": "microsoft-phi-3-small-128k-instruct",
+      "needs_review": true,
+      "provider_model_id": "microsoft/phi-3-small-128k-instruct",
+      "provider_name": "github-models"
+    },
+    {
+      "context_window_tokens": 8192,
+      "data_source": "modelsdev",
+      "model_id": "microsoft-phi-3-small-8k-instruct",
+      "needs_review": true,
+      "provider_model_id": "microsoft/phi-3-small-8k-instruct",
+      "provider_name": "github-models"
+    },
+    {
+      "context_window_tokens": 128000,
+      "data_source": "modelsdev",
+      "model_id": "microsoft-phi-3-5-mini-instruct",
+      "needs_review": true,
+      "provider_model_id": "microsoft/phi-3.5-mini-instruct",
+      "provider_name": "github-models"
+    },
+    {
+      "context_window_tokens": 128000,
+      "data_source": "modelsdev",
+      "model_id": "microsoft-phi-3-5-moe-instruct",
+      "needs_review": true,
+      "provider_model_id": "microsoft/phi-3.5-moe-instruct",
+      "provider_name": "github-models"
+    },
+    {
+      "context_window_tokens": 128000,
+      "data_source": "modelsdev",
+      "model_id": "microsoft-phi-3-5-vision-instruct",
+      "needs_review": true,
+      "provider_model_id": "microsoft/phi-3.5-vision-instruct",
+      "provider_name": "github-models"
+    },
+    {
+      "context_window_tokens": 16000,
+      "data_source": "modelsdev",
+      "model_id": "microsoft-phi-4",
+      "needs_review": true,
+      "provider_model_id": "microsoft/phi-4",
+      "provider_name": "github-models"
+    },
+    {
+      "context_window_tokens": 128000,
+      "data_source": "modelsdev",
+      "model_id": "microsoft-phi-4-mini-instruct",
+      "needs_review": true,
+      "provider_model_id": "microsoft/phi-4-mini-instruct",
+      "provider_name": "github-models"
+    },
+    {
+      "context_window_tokens": 128000,
+      "data_source": "modelsdev",
+      "model_id": "microsoft-phi-4-mini-reasoning",
+      "needs_review": true,
+      "provider_model_id": "microsoft/phi-4-mini-reasoning",
+      "provider_name": "github-models"
+    },
+    {
+      "context_window_tokens": 128000,
+      "data_source": "modelsdev",
+      "model_id": "microsoft-phi-4-multimodal-instruct",
+      "needs_review": true,
+      "provider_model_id": "microsoft/phi-4-multimodal-instruct",
+      "provider_name": "github-models"
+    },
+    {
+      "context_window_tokens": 128000,
+      "data_source": "modelsdev",
+      "model_id": "microsoft-phi-4-reasoning",
+      "needs_review": true,
+      "provider_model_id": "microsoft/phi-4-reasoning",
+      "provider_name": "github-models"
+    },
+    {
+      "context_window_tokens": 32000,
+      "data_source": "modelsdev",
+      "model_id": "mistral-ai-codestral-2501",
+      "needs_review": true,
+      "provider_model_id": "mistral-ai/codestral-2501",
+      "provider_name": "github-models"
+    },
+    {
+      "context_window_tokens": 128000,
+      "data_source": "modelsdev",
+      "model_id": "mistral-ai-ministral-3b",
+      "needs_review": true,
+      "provider_model_id": "mistral-ai/ministral-3b",
+      "provider_name": "github-models"
+    },
+    {
+      "context_window_tokens": 128000,
+      "data_source": "modelsdev",
+      "model_id": "mistral-ai-mistral-large-2411",
+      "needs_review": true,
+      "provider_model_id": "mistral-ai/mistral-large-2411",
+      "provider_name": "github-models"
+    },
+    {
+      "context_window_tokens": 128000,
+      "data_source": "modelsdev",
+      "model_id": "mistral-ai-mistral-medium-2505",
+      "needs_review": true,
+      "provider_model_id": "mistral-ai/mistral-medium-2505",
+      "provider_name": "github-models"
+    },
+    {
+      "context_window_tokens": 128000,
+      "data_source": "modelsdev",
+      "model_id": "mistral-ai-mistral-nemo",
+      "needs_review": true,
+      "provider_model_id": "mistral-ai/mistral-nemo",
+      "provider_name": "github-models"
+    },
+    {
+      "context_window_tokens": 128000,
+      "data_source": "modelsdev",
+      "model_id": "mistral-ai-mistral-small-2503",
+      "needs_review": true,
+      "provider_model_id": "mistral-ai/mistral-small-2503",
+      "provider_name": "github-models"
+    },
+    {
+      "context_window_tokens": 128000,
+      "data_source": "modelsdev",
+      "model_id": "gpt-4-1",
+      "needs_review": true,
+      "provider_model_id": "openai/gpt-4.1",
+      "provider_name": "github-models"
+    },
+    {
+      "context_window_tokens": 128000,
+      "data_source": "modelsdev",
+      "model_id": "gpt-4-1-mini",
+      "needs_review": true,
+      "provider_model_id": "openai/gpt-4.1-mini",
+      "provider_name": "github-models"
+    },
+    {
+      "context_window_tokens": 128000,
+      "data_source": "modelsdev",
+      "model_id": "gpt-4-1-nano",
+      "needs_review": true,
+      "provider_model_id": "openai/gpt-4.1-nano",
+      "provider_name": "github-models"
+    },
+    {
+      "context_window_tokens": 128000,
+      "data_source": "modelsdev",
+      "model_id": "gpt-4o",
+      "needs_review": true,
+      "provider_model_id": "openai/gpt-4o",
+      "provider_name": "github-models"
+    },
+    {
+      "context_window_tokens": 128000,
+      "data_source": "modelsdev",
+      "model_id": "gpt-4o-mini",
+      "needs_review": true,
+      "provider_model_id": "openai/gpt-4o-mini",
+      "provider_name": "github-models"
+    },
+    {
+      "context_window_tokens": 200000,
+      "data_source": "modelsdev",
+      "model_id": "o1",
+      "needs_review": true,
+      "provider_model_id": "openai/o1",
+      "provider_name": "github-models"
+    },
+    {
+      "context_window_tokens": 128000,
+      "data_source": "modelsdev",
+      "model_id": "o1-mini",
+      "needs_review": true,
+      "provider_model_id": "openai/o1-mini",
+      "provider_name": "github-models"
+    },
+    {
+      "context_window_tokens": 128000,
+      "data_source": "modelsdev",
+      "model_id": "o1-preview",
+      "needs_review": true,
+      "provider_model_id": "openai/o1-preview",
+      "provider_name": "github-models"
+    },
+    {
+      "context_window_tokens": 200000,
+      "data_source": "modelsdev",
+      "model_id": "o3",
+      "needs_review": true,
+      "provider_model_id": "openai/o3",
+      "provider_name": "github-models"
+    },
+    {
+      "context_window_tokens": 200000,
+      "data_source": "modelsdev",
+      "model_id": "o3-mini",
+      "needs_review": true,
+      "provider_model_id": "openai/o3-mini",
+      "provider_name": "github-models"
+    },
+    {
+      "context_window_tokens": 200000,
+      "data_source": "modelsdev",
+      "model_id": "o4-mini",
+      "needs_review": true,
+      "provider_model_id": "openai/o4-mini",
+      "provider_name": "github-models"
+    },
+    {
+      "context_window_tokens": 128000,
+      "data_source": "modelsdev",
+      "model_id": "grok-3",
+      "needs_review": true,
+      "provider_model_id": "xai/grok-3",
+      "provider_name": "github-models"
+    },
+    {
+      "context_window_tokens": 128000,
+      "data_source": "modelsdev",
+      "model_id": "grok-3-mini",
+      "needs_review": true,
+      "provider_model_id": "xai/grok-3-mini",
+      "provider_name": "github-models"
+    },
+    {
+      "context_window_tokens": 400000,
+      "data_source": "modelsdev",
+      "model_id": "duo-chat-gpt-5-1",
+      "needs_review": true,
+      "provider_model_id": "duo-chat-gpt-5-1",
+      "provider_name": "gitlab"
+    },
+    {
+      "context_window_tokens": 400000,
+      "data_source": "modelsdev",
+      "model_id": "duo-chat-gpt-5-2",
+      "needs_review": true,
+      "provider_model_id": "duo-chat-gpt-5-2",
+      "provider_name": "gitlab"
+    },
+    {
+      "context_window_tokens": 400000,
+      "data_source": "modelsdev",
+      "model_id": "duo-chat-gpt-5-2-codex",
+      "needs_review": true,
+      "provider_model_id": "duo-chat-gpt-5-2-codex",
+      "provider_name": "gitlab"
+    },
+    {
+      "context_window_tokens": 400000,
+      "data_source": "modelsdev",
+      "model_id": "duo-chat-gpt-5-codex",
+      "needs_review": true,
+      "provider_model_id": "duo-chat-gpt-5-codex",
+      "provider_name": "gitlab"
+    },
+    {
+      "context_window_tokens": 400000,
+      "data_source": "modelsdev",
+      "model_id": "duo-chat-gpt-5-mini",
+      "needs_review": true,
+      "provider_model_id": "duo-chat-gpt-5-mini",
+      "provider_name": "gitlab"
+    },
+    {
+      "context_window_tokens": 200000,
+      "data_source": "modelsdev",
+      "model_id": "duo-chat-haiku-4-5",
+      "needs_review": true,
+      "provider_model_id": "duo-chat-haiku-4-5",
+      "provider_name": "gitlab"
+    },
+    {
+      "context_window_tokens": 200000,
+      "data_source": "modelsdev",
+      "model_id": "duo-chat-opus-4-5",
+      "needs_review": true,
+      "provider_model_id": "duo-chat-opus-4-5",
+      "provider_name": "gitlab"
+    },
+    {
+      "context_window_tokens": 1000000,
+      "data_source": "modelsdev",
+      "model_id": "duo-chat-opus-4-6",
+      "needs_review": true,
+      "provider_model_id": "duo-chat-opus-4-6",
+      "provider_name": "gitlab"
+    },
+    {
+      "context_window_tokens": 200000,
+      "data_source": "modelsdev",
+      "model_id": "duo-chat-sonnet-4-5",
+      "needs_review": true,
+      "provider_model_id": "duo-chat-sonnet-4-5",
+      "provider_name": "gitlab"
+    },
+    {
+      "context_window_tokens": 1000000,
+      "data_source": "modelsdev",
+      "model_id": "duo-chat-sonnet-4-6",
+      "needs_review": true,
+      "provider_model_id": "duo-chat-sonnet-4-6",
+      "provider_name": "gitlab"
+    },
+    {
+      "context_window_tokens": 200000,
+      "data_source": "modelsdev",
+      "model_id": "zai-org-glm-4-7-flash",
+      "needs_review": true,
+      "provider_model_id": "zai-org/GLM-4.7-Flash",
+      "provider_name": "huggingface"
+    },
+    {
+      "context_window_tokens": 128000,
+      "data_source": "modelsdev",
+      "model_id": "deepseek-r1",
+      "needs_review": true,
+      "provider_model_id": "deepseek-r1",
+      "provider_name": "iflowcn"
+    },
+    {
+      "context_window_tokens": 128000,
+      "data_source": "modelsdev",
+      "model_id": "deepseek-v3",
+      "needs_review": true,
+      "provider_model_id": "deepseek-v3",
+      "provider_name": "iflowcn"
+    },
+    {
+      "context_window_tokens": 128000,
+      "data_source": "modelsdev",
+      "model_id": "deepseek-v3-2",
+      "needs_review": true,
+      "provider_model_id": "deepseek-v3.2",
+      "provider_name": "iflowcn"
+    },
+    {
+      "context_window_tokens": 200000,
+      "data_source": "modelsdev",
+      "model_id": "glm-4-6",
+      "needs_review": true,
+      "provider_model_id": "glm-4.6",
+      "provider_name": "iflowcn"
+    },
+    {
+      "context_window_tokens": 128000,
+      "data_source": "modelsdev",
+      "model_id": "kimi-k2",
+      "needs_review": true,
+      "provider_model_id": "kimi-k2",
+      "provider_name": "iflowcn"
+    },
+    {
+      "context_window_tokens": 256000,
+      "data_source": "modelsdev",
+      "model_id": "kimi-k2-0905",
+      "needs_review": true,
+      "provider_model_id": "kimi-k2-0905",
+      "provider_name": "iflowcn"
+    },
+    {
+      "context_window_tokens": 128000,
+      "data_source": "modelsdev",
+      "model_id": "qwen3-235b",
+      "needs_review": true,
+      "provider_model_id": "qwen3-235b",
+      "provider_name": "iflowcn"
+    },
+    {
+      "context_window_tokens": 256000,
+      "data_source": "modelsdev",
+      "model_id": "qwen3-235b-a22b-instruct",
+      "needs_review": true,
+      "provider_model_id": "qwen3-235b-a22b-instruct",
+      "provider_name": "iflowcn"
+    },
+    {
+      "context_window_tokens": 256000,
+      "data_source": "modelsdev",
+      "model_id": "qwen3-235b-a22b-thinking-2507",
+      "needs_review": true,
+      "provider_model_id": "qwen3-235b-a22b-thinking-2507",
+      "provider_name": "iflowcn"
+    },
+    {
+      "context_window_tokens": 128000,
+      "data_source": "modelsdev",
+      "model_id": "qwen3-32b",
+      "needs_review": true,
+      "provider_model_id": "qwen3-32b",
+      "provider_name": "iflowcn"
+    },
+    {
+      "context_window_tokens": 256000,
+      "data_source": "modelsdev",
+      "model_id": "qwen3-coder-plus",
+      "needs_review": true,
+      "provider_model_id": "qwen3-coder-plus",
+      "provider_name": "iflowcn"
+    },
+    {
+      "context_window_tokens": 256000,
+      "data_source": "modelsdev",
+      "model_id": "qwen3-max",
+      "needs_review": true,
+      "provider_model_id": "qwen3-max",
+      "provider_name": "iflowcn"
+    },
+    {
+      "context_window_tokens": 256000,
+      "data_source": "modelsdev",
+      "model_id": "qwen3-max-preview",
+      "needs_review": true,
+      "provider_model_id": "qwen3-max-preview",
+      "provider_name": "iflowcn"
+    },
+    {
+      "context_window_tokens": 256000,
+      "data_source": "modelsdev",
+      "model_id": "qwen3-vl-plus",
+      "needs_review": true,
+      "provider_model_id": "qwen3-vl-plus",
+      "provider_name": "iflowcn"
+    },
+    {
+      "context_window_tokens": 262144,
+      "data_source": "modelsdev",
+      "model_id": "xiaomimimo-mimo-v2-flash",
+      "needs_review": true,
+      "provider_model_id": "xiaomimimo/mimo-v2-flash",
+      "provider_name": "jiekou"
+    },
+    {
+      "context_window_tokens": 131000,
+      "data_source": "modelsdev",
+      "model_id": "arcee-ai-trinity-large-preview",
+      "needs_review": true,
+      "provider_model_id": "arcee-ai/trinity-large-preview:free",
+      "provider_name": "kilo"
+    },
+    {
+      "context_window_tokens": 131072,
+      "data_source": "modelsdev",
+      "model_id": "arcee-ai-trinity-mini",
+      "needs_review": true,
+      "provider_model_id": "arcee-ai/trinity-mini:free",
+      "provider_name": "kilo"
+    },
+    {
+      "context_window_tokens": 32768,
+      "data_source": "modelsdev",
+      "model_id": "cognitivecomputations-dolphin-mistral-24b-venice-edition",
+      "needs_review": true,
+      "provider_model_id": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free",
+      "provider_name": "kilo"
+    },
+    {
+      "context_window_tokens": 163840,
+      "data_source": "modelsdev",
+      "model_id": "deepseek-deepseek-r1-0528",
+      "needs_review": true,
+      "provider_model_id": "deepseek/deepseek-r1-0528:free",
+      "provider_name": "kilo"
+    },
+    {
+      "context_window_tokens": 32768,
+      "data_source": "modelsdev",
+      "model_id": "gemma-3-12b-it",
+      "needs_review": true,
+      "provider_model_id": "google/gemma-3-12b-it:free",
+      "provider_name": "kilo"
+    },
+    {
+      "context_window_tokens": 131072,
+      "data_source": "modelsdev",
+      "model_id": "gemma-3-27b-it",
+      "needs_review": true,
+      "provider_model_id": "google/gemma-3-27b-it:free",
+      "provider_name": "kilo"
+    },
+    {
+      "context_window_tokens": 32768,
+      "data_source": "modelsdev",
+      "model_id": "gemma-3-4b-it",
+      "needs_review": true,
+      "provider_model_id": "google/gemma-3-4b-it:free",
+      "provider_name": "kilo"
+    },
+    {
+      "context_window_tokens": 8192,
+      "data_source": "modelsdev",
+      "model_id": "gemma-3n-e2b-it",
+      "needs_review": true,
+      "provider_model_id": "google/gemma-3n-e2b-it:free",
+      "provider_name": "kilo"
+    },
+    {
+      "context_window_tokens": 8192,
+      "data_source": "modelsdev",
+      "model_id": "gemma-3n-e4b-it",
+      "needs_review": true,
+      "provider_model_id": "google/gemma-3n-e4b-it:free",
+      "provider_name": "kilo"
+    },
+    {
+      "context_window_tokens": 32768,
+      "data_source": "modelsdev",
+      "model_id": "liquid-lfm-2-5-1-2b-instruct",
+      "needs_review": true,
+      "provider_model_id": "liquid/lfm-2.5-1.2b-instruct:free",
+      "provider_name": "kilo"
+    },
+    {
+      "context_window_tokens": 32768,
+      "data_source": "modelsdev",
+      "model_id": "liquid-lfm-2-5-1-2b-thinking",
+      "needs_review": true,
+      "provider_model_id": "liquid/lfm-2.5-1.2b-thinking:free",
+      "provider_name": "kilo"
+    },
+    {
+      "context_window_tokens": 131072,
+      "data_source": "modelsdev",
+      "model_id": "meta-llama-llama-3-2-3b-instruct",
+      "needs_review": true,
+      "provider_model_id": "meta-llama/llama-3.2-3b-instruct:free",
+      "provider_name": "kilo"
+    },
+    {
+      "context_window_tokens": 128000,
+      "data_source": "modelsdev",
+      "model_id": "meta-llama-llama-3-3-70b-instruct",
+      "needs_review": true,
+      "provider_model_id": "meta-llama/llama-3.3-70b-instruct:free",
+      "provider_name": "kilo"
+    },
+    {
+      "context_window_tokens": 204800,
+      "data_source": "modelsdev",
+      "model_id": "minimax-minimax-m2-5",
+      "needs_review": true,
+      "provider_model_id": "minimax/minimax-m2.5:free",
+      "provider_name": "kilo"
+    },
+    {
+      "context_window_tokens": 128000,
+      "data_source": "modelsdev",
+      "model_id": "mistral-small-3-1-24b-instruct",
+      "needs_review": true,
+      "provider_model_id": "mistralai/mistral-small-3.1-24b-instruct:free",
+      "provider_name": "kilo"
+    },
+    {
+      "context_window_tokens": 131072,
+      "data_source": "modelsdev",
+      "model_id": "nousresearch-hermes-3-llama-3-1-405b",
+      "needs_review": true,
+      "provider_model_id": "nousresearch/hermes-3-llama-3.1-405b:free",
+      "provider_name": "kilo"
+    },
+    {
+      "context_window_tokens": 256000,
+      "data_source": "modelsdev",
+      "model_id": "nvidia-nemotron-3-nano-30b-a3b",
+      "needs_review": true,
+      "provider_model_id": "nvidia/nemotron-3-nano-30b-a3b:free",
+      "provider_name": "kilo"
+    },
+    {
+      "context_window_tokens": 128000,
+      "data_source": "modelsdev",
+      "model_id": "nvidia-nemotron-nano-12b-v2-vl",
+      "needs_review": true,
+      "provider_model_id": "nvidia/nemotron-nano-12b-v2-vl:free",
+      "provider_name": "kilo"
+    },
+    {
+      "context_window_tokens": 128000,
+      "data_source": "modelsdev",
+      "model_id": "nvidia-nemotron-nano-9b-v2",
+      "needs_review": true,
+      "provider_model_id": "nvidia/nemotron-nano-9b-v2:free",
+      "provider_name": "kilo"
+    },
+    {
+      "context_window_tokens": 131072,
+      "data_source": "modelsdev",
+      "model_id": "gpt-oss-120b",
+      "needs_review": true,
+      "provider_model_id": "openai/gpt-oss-120b:free",
+      "provider_name": "kilo"
+    },
+    {
+      "context_window_tokens": 131072,
+      "data_source": "modelsdev",
+      "model_id": "gpt-oss-20b",
+      "needs_review": true,
+      "provider_model_id": "openai/gpt-oss-20b:free",
+      "provider_name": "kilo"
+    },
+    {
+      "context_window_tokens": 128000,
+      "data_source": "modelsdev",
+      "model_id": "aurora-alpha",
+      "needs_review": true,
+      "provider_model_id": "openrouter/aurora-alpha",
+      "provider_name": "kilo"
+    },
+    {
+      "context_window_tokens": 131072,
+      "data_source": "modelsdev",
+      "model_id": "qwen-qwen3-235b-a22b-thinking-2507",
+      "needs_review": true,
+      "provider_model_id": "qwen/qwen3-235b-a22b-thinking-2507",
+      "provider_name": "kilo"
+    },
+    {
+      "context_window_tokens": 40960,
+      "data_source": "modelsdev",
+      "model_id": "qwen-qwen3-4b",
+      "needs_review": true,
+      "provider_model_id": "qwen/qwen3-4b:free",
+      "provider_name": "kilo"
+    },
+    {
+      "context_window_tokens": 262000,
+      "data_source": "modelsdev",
+      "model_id": "qwen-qwen3-coder",
+      "needs_review": true,
+      "provider_model_id": "qwen/qwen3-coder:free",
+      "provider_name": "kilo"
+    },
+    {
+      "context_window_tokens": 262144,
+      "data_source": "modelsdev",
+      "model_id": "qwen-qwen3-next-80b-a3b-instruct",
+      "needs_review": true,
+      "provider_model_id": "qwen/qwen3-next-80b-a3b-instruct:free",
+      "provider_name": "kilo"
+    },
+    {
+      "context_window_tokens": 131072,
+      "data_source": "modelsdev",
+      "model_id": "qwen-qwen3-vl-235b-a22b-thinking",
+      "needs_review": true,
+      "provider_model_id": "qwen/qwen3-vl-235b-a22b-thinking",
+      "provider_name": "kilo"
+    },
+    {
+      "context_window_tokens": 131072,
+      "data_source": "modelsdev",
+      "model_id": "qwen-qwen3-vl-30b-a3b-thinking",
+      "needs_review": true,
+      "provider_model_id": "qwen/qwen3-vl-30b-a3b-thinking",
+      "provider_name": "kilo"
+    },
+    {
+      "context_window_tokens": 256000,
+      "data_source": "modelsdev",
+      "model_id": "stepfun-step-3-5-flash",
+      "needs_review": true,
+      "provider_model_id": "stepfun/step-3.5-flash:free",
+      "provider_name": "kilo"
+    },
+    {
+      "context_window_tokens": 131072,
+      "data_source": "modelsdev",
+      "model_id": "z-ai-glm-4-5-air",
+      "needs_review": true,
+      "provider_model_id": "z-ai/glm-4.5-air:free",
+      "provider_name": "kilo"
+    },
+    {
+      "context_window_tokens": 202800,
+      "data_source": "modelsdev",
+      "model_id": "z-ai-glm-5",
+      "needs_review": true,
+      "provider_model_id": "z-ai/glm-5:free",
+      "provider_name": "kilo"
+    },
+    {
+      "context_window_tokens": 262144,
+      "data_source": "modelsdev",
+      "model_id": "k2p5",
+      "needs_review": true,
+      "provider_model_id": "k2p5",
+      "provider_name": "kimi-for-coding"
+    },
+    {
+      "context_window_tokens": 262144,
+      "data_source": "modelsdev",
+      "model_id": "kimi-k2-thinking",
+      "needs_review": true,
+      "provider_model_id": "kimi-k2-thinking",
+      "provider_name": "kimi-for-coding"
+    },
+    {
+      "context_window_tokens": 204800,
+      "data_source": "modelsdev",
+      "model_id": "glm-4-7",
+      "needs_review": true,
+      "provider_model_id": "GLM-4.7",
+      "provider_name": "kuae-cloud-coding-plan"
+    },
+    {
+      "context_window_tokens": 128000,
+      "data_source": "modelsdev",
+      "model_id": "cerebras-llama-4-maverick-17b-128e-instruct",
+      "needs_review": true,
+      "provider_model_id": "cerebras-llama-4-maverick-17b-128e-instruct",
+      "provider_name": "llama"
+    },
+    {
+      "context_window_tokens": 128000,
+      "data_source": "modelsdev",
+      "model_id": "cerebras-llama-4-scout-17b-16e-instruct",
+      "needs_review": true,
+      "provider_model_id": "cerebras-llama-4-scout-17b-16e-instruct",
+      "provider_name": "llama"
+    },
+    {
+      "context_window_tokens": 128000,
+      "data_source": "modelsdev",
+      "model_id": "groq-llama-4-maverick-17b-128e-instruct",
+      "needs_review": true,
+      "provider_model_id": "groq-llama-4-maverick-17b-128e-instruct",
+      "provider_name": "llama"
+    },
+    {
+      "context_window_tokens": 128000,
+      "data_source": "modelsdev",
+      "model_id": "llama-3-3-70b-instruct",
+      "needs_review": true,
+      "provider_model_id": "llama-3.3-70b-instruct",
+      "provider_name": "llama"
+    },
+    {
+      "context_window_tokens": 128000,
+      "data_source": "modelsdev",
+      "model_id": "llama-3-3-8b-instruct",
+      "needs_review": true,
+      "provider_model_id": "llama-3.3-8b-instruct",
+      "provider_name": "llama"
+    },
+    {
+      "context_window_tokens": 128000,
+      "data_source": "modelsdev",
+      "model_id": "llama-4-maverick-17b-128e-instruct-fp8",
+      "needs_review": true,
+      "provider_model_id": "llama-4-maverick-17b-128e-instruct-fp8",
+      "provider_name": "llama"
+    },
+    {
+      "context_window_tokens": 128000,
+      "data_source": "modelsdev",
+      "model_id": "llama-4-scout-17b-16e-instruct-fp8",
+      "needs_review": true,
+      "provider_model_id": "llama-4-scout-17b-16e-instruct-fp8",
+      "provider_name": "llama"
+    },
+    {
+      "context_window_tokens": 131072,
+      "data_source": "modelsdev",
+      "model_id": "gpt-oss-20b",
+      "needs_review": true,
+      "provider_model_id": "openai/gpt-oss-20b",
+      "provider_name": "lmstudio"
+    },
+    {
+      "context_window_tokens": 262144,
+      "data_source": "modelsdev",
+      "model_id": "qwen-qwen3-30b-a3b-2507",
+      "needs_review": true,
+      "provider_model_id": "qwen/qwen3-30b-a3b-2507",
+      "provider_name": "lmstudio"
+    },
+    {
+      "context_window_tokens": 262144,
+      "data_source": "modelsdev",
+      "model_id": "qwen-qwen3-coder-30b",
+      "needs_review": true,
+      "provider_model_id": "qwen/qwen3-coder-30b",
+      "provider_name": "lmstudio"
+    },
+    {
+      "context_window_tokens": 32768,
+      "data_source": "modelsdev",
+      "model_id": "mistral-small-3-2-24b-instruct-2506",
+      "needs_review": true,
+      "provider_model_id": "mistralai/Mistral-Small-3.2-24B-Instruct-2506",
+      "provider_name": "meganova"
+    },
+    {
+      "context_window_tokens": 196608,
+      "data_source": "modelsdev",
+      "model_id": "minimax-m2",
+      "needs_review": true,
+      "provider_model_id": "MiniMax-M2",
+      "provider_name": "minimax-cn-coding-plan"
+    },
+    {
+      "context_window_tokens": 204800,
+      "data_source": "modelsdev",
+      "model_id": "minimax-m2-1",
+      "needs_review": true,
+      "provider_model_id": "MiniMax-M2.1",
+      "provider_name": "minimax-cn-coding-plan"
+    },
+    {
+      "context_window_tokens": 204800,
+      "data_source": "modelsdev",
+      "model_id": "minimax-m2-5",
+      "needs_review": true,
+      "provider_model_id": "MiniMax-M2.5",
+      "provider_name": "minimax-cn-coding-plan"
+    },
+    {
+      "context_window_tokens": 204800,
+      "data_source": "modelsdev",
+      "model_id": "minimax-m2-5-highspeed",
+      "needs_review": true,
+      "provider_model_id": "MiniMax-M2.5-highspeed",
+      "provider_name": "minimax-cn-coding-plan"
+    },
+    {
+      "context_window_tokens": 196608,
+      "data_source": "modelsdev",
+      "model_id": "minimax-m2",
+      "needs_review": true,
+      "provider_model_id": "MiniMax-M2",
+      "provider_name": "minimax-coding-plan"
+    },
+    {
+      "context_window_tokens": 204800,
+      "data_source": "modelsdev",
+      "model_id": "minimax-m2-1",
+      "needs_review": true,
+      "provider_model_id": "MiniMax-M2.1",
+      "provider_name": "minimax-coding-plan"
+    },
+    {
+      "context_window_tokens": 204800,
+      "data_source": "modelsdev",
+      "model_id": "minimax-m2-5",
+      "needs_review": true,
+      "provider_model_id": "MiniMax-M2.5",
+      "provider_name": "minimax-coding-plan"
+    },
+    {
+      "context_window_tokens": 204800,
+      "data_source": "modelsdev",
+      "model_id": "minimax-m2-5-highspeed",
+      "needs_review": true,
+      "provider_model_id": "MiniMax-M2.5-highspeed",
+      "provider_name": "minimax-coding-plan"
+    },
+    {
+      "context_window_tokens": 256000,
+      "data_source": "modelsdev",
+      "model_id": "labs-devstral-small-2512",
+      "needs_review": true,
+      "provider_model_id": "labs-devstral-small-2512",
+      "provider_name": "mistral"
+    },
+    {
+      "context_window_tokens": 262144,
+      "data_source": "modelsdev",
+      "model_id": "qwen-qwen3-235b-a22b-instruct-2507",
+      "needs_review": true,
+      "provider_model_id": "Qwen/Qwen3-235B-A22B-Instruct-2507",
+      "provider_name": "modelscope"
+    },
+    {
+      "context_window_tokens": 262144,
+      "data_source": "modelsdev",
+      "model_id": "qwen-qwen3-235b-a22b-thinking-2507",
+      "needs_review": true,
+      "provider_model_id": "Qwen/Qwen3-235B-A22B-Thinking-2507",
+      "provider_name": "modelscope"
+    },
+    {
+      "context_window_tokens": 262144,
+      "data_source": "modelsdev",
+      "model_id": "qwen-qwen3-30b-a3b-instruct-2507",
+      "needs_review": true,
+      "provider_model_id": "Qwen/Qwen3-30B-A3B-Instruct-2507",
+      "provider_name": "modelscope"
+    },
+    {
+      "context_window_tokens": 262144,
+      "data_source": "modelsdev",
+      "model_id": "qwen-qwen3-30b-a3b-thinking-2507",
+      "needs_review": true,
+      "provider_model_id": "Qwen/Qwen3-30B-A3B-Thinking-2507",
+      "provider_name": "modelscope"
+    },
+    {
+      "context_window_tokens": 262144,
+      "data_source": "modelsdev",
+      "model_id": "qwen-qwen3-coder-30b-a3b-instruct",
+      "needs_review": true,
+      "provider_model_id": "Qwen/Qwen3-Coder-30B-A3B-Instruct",
+      "provider_name": "modelscope"
+    },
+    {
+      "context_window_tokens": 131072,
+      "data_source": "modelsdev",
+      "model_id": "zhipuai-glm-4-5",
+      "needs_review": true,
+      "provider_model_id": "ZhipuAI/GLM-4.5",
+      "provider_name": "modelscope"
+    },
+    {
+      "context_window_tokens": 202752,
+      "data_source": "modelsdev",
+      "model_id": "zhipuai-glm-4-6",
+      "needs_review": true,
+      "provider_model_id": "ZhipuAI/GLM-4.6",
+      "provider_name": "modelscope"
+    },
+    {
+      "context_window_tokens": 1000000,
+      "data_source": "modelsdev",
+      "model_id": "auto-model",
+      "needs_review": true,
+      "provider_model_id": "auto-model",
+      "provider_name": "nano-gpt"
+    },
+    {
+      "context_window_tokens": 77,
+      "data_source": "modelsdev",
+      "model_id": "black-forest-labs-flux-dev",
+      "needs_review": true,
+      "provider_model_id": "black-forest-labs/flux-dev",
+      "provider_name": "nebius"
+    },
+    {
+      "context_window_tokens": 77,
+      "data_source": "modelsdev",
+      "model_id": "black-forest-labs-flux-schnell",
+      "needs_review": true,
+      "provider_model_id": "black-forest-labs/flux-schnell",
+      "provider_name": "nebius"
+    },
+    {
+      "context_window_tokens": 1000000,
+      "data_source": "modelsdev",
+      "model_id": "nova-2-lite-v1",
+      "needs_review": true,
+      "provider_model_id": "nova-2-lite-v1",
+      "provider_name": "nova"
+    },
+    {
+      "context_window_tokens": 1000000,
+      "data_source": "modelsdev",
+      "model_id": "nova-2-pro-v1",
+      "needs_review": true,
+      "provider_model_id": "nova-2-pro-v1",
+      "provider_name": "nova"
+    },
+    {
+      "context_window_tokens": 256000,
+      "data_source": "modelsdev",
+      "model_id": "kwaipilot-kat-coder",
+      "needs_review": true,
+      "provider_model_id": "kwaipilot/kat-coder",
+      "provider_name": "novita-ai"
+    },
+    {
+      "context_window_tokens": 4096,
+      "data_source": "modelsdev",
+      "model_id": "black-forest-labs-flux-1-dev",
+      "needs_review": true,
+      "provider_model_id": "black-forest-labs/flux.1-dev",
+      "provider_name": "nvidia"
+    },
+    {
+      "context_window_tokens": 128000,
+      "data_source": "modelsdev",
+      "model_id": "deepseek-ai-deepseek-coder-6-7b-instruct",
+      "needs_review": true,
+      "provider_model_id": "deepseek-ai/deepseek-coder-6.7b-instruct",
+      "provider_name": "nvidia"
+    },
+    {
+      "context_window_tokens": 128000,
+      "data_source": "modelsdev",
+      "model_id": "deepseek-ai-deepseek-r1",
+      "needs_review": true,
+      "provider_model_id": "deepseek-ai/deepseek-r1",
+      "provider_name": "nvidia"
+    },
+    {
+      "context_window_tokens": 128000,
+      "data_source": "modelsdev",
+      "model_id": "deepseek-ai-deepseek-r1-0528",
+      "needs_review": true,
+      "provider_model_id": "deepseek-ai/deepseek-r1-0528",
+      "provider_name": "nvidia"
+    },
+    {
+      "context_window_tokens": 128000,
+      "data_source": "modelsdev",
+      "model_id": "deepseek-ai-deepseek-v3-1",
+      "needs_review": true,
+      "provider_model_id": "deepseek-ai/deepseek-v3.1",
+      "provider_name": "nvidia"
+    },
+    {
+      "context_window_tokens": 128000,
+      "data_source": "modelsdev",
+      "model_id": "deepseek-ai-deepseek-v3-1-terminus",
+      "needs_review": true,
+      "provider_model_id": "deepseek-ai/deepseek-v3.1-terminus",
+      "provider_name": "nvidia"
+    },
+    {
+      "context_window_tokens": 163840,
+      "data_source": "modelsdev",
+      "model_id": "deepseek-ai-deepseek-v3-2",
+      "needs_review": true,
+      "provider_model_id": "deepseek-ai/deepseek-v3.2",
+      "provider_name": "nvidia"
+    },
+    {
+      "context_window_tokens": 128000,
+      "data_source": "modelsdev",
+      "model_id": "codegemma-1-1-7b",
+      "needs_review": true,
+      "provider_model_id": "google/codegemma-1.1-7b",
+      "provider_name": "nvidia"
+    },
+    {
+      "context_window_tokens": 128000,
+      "data_source": "modelsdev",
+      "model_id": "codegemma-7b",
+      "needs_review": true,
+      "provider_model_id": "google/codegemma-7b",
+      "provider_name": "nvidia"
+    },
+    {
+      "context_window_tokens": 128000,
+      "data_source": "modelsdev",
+      "model_id": "gemma-2-27b-it",
+      "needs_review": true,
+      "provider_model_id": "google/gemma-2-27b-it",
+      "provider_name": "nvidia"
+    },
+    {
+      "context_window_tokens": 128000,
+      "data_source": "modelsdev",
+      "model_id": "gemma-2-2b-it",
+      "needs_review": true,
+      "provider_model_id": "google/gemma-2-2b-it",
+      "provider_name": "nvidia"
+    },
+    {
+      "context_window_tokens": 128000,
+      "data_source": "modelsdev",
+      "model_id": "gemma-3-12b-it",
+      "needs_review": true,
+      "provider_model_id": "google/gemma-3-12b-it",
+      "provider_name": "nvidia"
+    },
+    {
+      "context_window_tokens": 128000,
+      "data_source": "modelsdev",
+      "model_id": "gemma-3-1b-it",
+      "needs_review": true,
+      "provider_model_id": "google/gemma-3-1b-it",
+      "provider_name": "nvidia"
+    },
+    {
+      "context_window_tokens": 131072,
+      "data_source": "modelsdev",
+      "model_id": "gemma-3-27b-it",
+      "needs_review": true,
+      "provider_model_id": "google/gemma-3-27b-it",
+      "provider_name": "nvidia"
+    },
+    {
+      "context_window_tokens": 128000,
+      "data_source": "modelsdev",
+      "model_id": "gemma-3n-e2b-it",
+      "needs_review": true,
+      "provider_model_id": "google/gemma-3n-e2b-it",
+      "provider_name": "nvidia"
+    },
+    {
+      "context_window_tokens": 128000,
+      "data_source": "modelsdev",
+      "model_id": "gemma-3n-e4b-it",
+      "needs_review": true,
+      "provider_model_id": "google/gemma-3n-e4b-it",
+      "provider_name": "nvidia"
+    },
+    {
+      "context_window_tokens": 128000,
+      "data_source": "modelsdev",
+      "model_id": "meta-codellama-70b",
+      "needs_review": true,
+      "provider_model_id": "meta/codellama-70b",
+      "provider_name": "nvidia"
+    },
+    {
+      "context_window_tokens": 128000,
+      "data_source": "modelsdev",
+      "model_id": "meta-llama-3-1-405b-instruct",
+      "needs_review": true,
+      "provider_model_id": "meta/llama-3.1-405b-instruct",
+      "provider_name": "nvidia"
+    },
+    {
+      "context_window_tokens": 128000,
+      "data_source": "modelsdev",
+      "model_id": "meta-llama-3-1-70b-instruct",
+      "needs_review": true,
+      "provider_model_id": "meta/llama-3.1-70b-instruct",
+      "provider_name": "nvidia"
+    },
+    {
+      "context_window_tokens": 128000,
+      "data_source": "modelsdev",
+      "model_id": "meta-llama-3-2-11b-vision-instruct",
+      "needs_review": true,
+      "provider_model_id": "meta/llama-3.2-11b-vision-instruct",
+      "provider_name": "nvidia"
+    },
+    {
+      "context_window_tokens": 128000,
+      "data_source": "modelsdev",
+      "model_id": "meta-llama-3-2-1b-instruct",
+      "needs_review": true,
+      "provider_model_id": "meta/llama-3.2-1b-instruct",
+      "provider_name": "nvidia"
+    },
+    {
+      "context_window_tokens": 128000,
+      "data_source": "modelsdev",
+      "model_id": "meta-llama-3-3-70b-instruct",
+      "needs_review": true,
+      "provider_model_id": "meta/llama-3.3-70b-instruct",
+      "provider_name": "nvidia"
+    },
+    {
+      "context_window_tokens": 128000,
+      "data_source": "modelsdev",
+      "model_id": "meta-llama-4-maverick-17b-128e-instruct",
+      "needs_review": true,
+      "provider_model_id": "meta/llama-4-maverick-17b-128e-instruct",
+      "provider_name": "nvidia"
+    },
+    {
+      "context_window_tokens": 128000,
+      "data_source": "modelsdev",
+      "model_id": "meta-llama-4-scout-17b-16e-instruct",
+      "needs_review": true,
+      "provider_model_id": "meta/llama-4-scout-17b-16e-instruct",
+      "provider_name": "nvidia"
+    },
+    {
+      "context_window_tokens": 128000,
+      "data_source": "modelsdev",
+      "model_id": "meta-llama3-70b-instruct",
+      "needs_review": true,
+      "provider_model_id": "meta/llama3-70b-instruct",
+      "provider_name": "nvidia"
+    },
+    {
+      "context_window_tokens": 128000,
+      "data_source": "modelsdev",
+      "model_id": "meta-llama3-8b-instruct",
+      "needs_review": true,
+      "provider_model_id": "meta/llama3-8b-instruct",
+      "provider_name": "nvidia"
+    },
+    {
+      "context_window_tokens": 128000,
+      "data_source": "modelsdev",
+      "model_id": "microsoft-phi-3-medium-128k-instruct",
+      "needs_review": true,
+      "provider_model_id": "microsoft/phi-3-medium-128k-instruct",
+      "provider_name": "nvidia"
+    },
+    {
+      "context_window_tokens": 4000,
+      "data_source": "modelsdev",
+      "model_id": "microsoft-phi-3-medium-4k-instruct",
+      "needs_review": true,
+      "provider_model_id": "microsoft/phi-3-medium-4k-instruct",
+      "provider_name": "nvidia"
+    },
+    {
+      "context_window_tokens": 128000,
+      "data_source": "modelsdev",
+      "model_id": "microsoft-phi-3-small-128k-instruct",
+      "needs_review": true,
+      "provider_model_id": "microsoft/phi-3-small-128k-instruct",
+      "provider_name": "nvidia"
+    },
+    {
+      "context_window_tokens": 8000,
+      "data_source": "modelsdev",
+      "model_id": "microsoft-phi-3-small-8k-instruct",
+      "needs_review": true,
+      "provider_model_id": "microsoft/phi-3-small-8k-instruct",
+      "provider_name": "nvidia"
+    },
+    {
+      "context_window_tokens": 128000,
+      "data_source": "modelsdev",
+      "model_id": "microsoft-phi-3-vision-128k-instruct",
+      "needs_review": true,
+      "provider_model_id": "microsoft/phi-3-vision-128k-instruct",
+      "provider_name": "nvidia"
+    },
+    {
+      "context_window_tokens": 128000,
+      "data_source": "modelsdev",
+      "model_id": "microsoft-phi-3-5-moe-instruct",
+      "needs_review": true,
+      "provider_model_id": "microsoft/phi-3.5-moe-instruct",
+      "provider_name": "nvidia"
+    },
+    {
+      "context_window_tokens": 128000,
+      "data_source": "modelsdev",
+      "model_id": "microsoft-phi-3-5-vision-instruct",
+      "needs_review": true,
+      "provider_model_id": "microsoft/phi-3.5-vision-instruct",
+      "provider_name": "nvidia"
+    },
+    {
+      "context_window_tokens": 131072,
+      "data_source": "modelsdev",
+      "model_id": "microsoft-phi-4-mini-instruct",
+      "needs_review": true,
+      "provider_model_id": "microsoft/phi-4-mini-instruct",
+      "provider_name": "nvidia"
+    },
+    {
+      "context_window_tokens": 204800,
+      "data_source": "modelsdev",
+      "model_id": "minimaxai-minimax-m2-1",
+      "needs_review": true,
+      "provider_model_id": "minimaxai/minimax-m2.1",
+      "provider_name": "nvidia"
+    },
+    {
+      "context_window_tokens": 204800,
+      "data_source": "modelsdev",
+      "model_id": "minimaxai-minimax-m2-5",
+      "needs_review": true,
+      "provider_model_id": "minimaxai/minimax-m2.5",
+      "provider_name": "nvidia"
+    },
+    {
+      "context_window_tokens": 128000,
+      "data_source": "modelsdev",
+      "model_id": "codestral-22b-instruct-v0-1",
+      "needs_review": true,
+      "provider_model_id": "mistralai/codestral-22b-instruct-v0.1",
+      "provider_name": "nvidia"
+    },
+    {
+      "context_window_tokens": 262144,
+      "data_source": "modelsdev",
+      "model_id": "devstral-2-123b-instruct-2512",
+      "needs_review": true,
+      "provider_model_id": "mistralai/devstral-2-123b-instruct-2512",
+      "provider_name": "nvidia"
+    },
+    {
+      "context_window_tokens": 128000,
+      "data_source": "modelsdev",
+      "model_id": "mamba-codestral-7b-v0-1",
+      "needs_review": true,
+      "provider_model_id": "mistralai/mamba-codestral-7b-v0.1",
+      "provider_name": "nvidia"
+    },
+    {
+      "context_window_tokens": 262144,
+      "data_source": "modelsdev",
+      "model_id": "ministral-14b-instruct-2512",
+      "needs_review": true,
+      "provider_model_id": "mistralai/ministral-14b-instruct-2512",
+      "provider_name": "nvidia"
+    },
+    {
+      "context_window_tokens": 128000,
+      "data_source": "modelsdev",
+      "model_id": "mistral-large-2-instruct",
+      "needs_review": true,
+      "provider_model_id": "mistralai/mistral-large-2-instruct",
+      "provider_name": "nvidia"
+    },
+    {
+      "context_window_tokens": 262144,
+      "data_source": "modelsdev",
+      "model_id": "mistral-large-3-675b-instruct-2512",
+      "needs_review": true,
+      "provider_model_id": "mistralai/mistral-large-3-675b-instruct-2512",
+      "provider_name": "nvidia"
+    },
+    {
+      "context_window_tokens": 128000,
+      "data_source": "modelsdev",
+      "model_id": "mistral-small-3-1-24b-instruct-2503",
+      "needs_review": true,
+      "provider_model_id": "mistralai/mistral-small-3.1-24b-instruct-2503",
+      "provider_name": "nvidia"
+    },
+    {
+      "context_window_tokens": 128000,
+      "data_source": "modelsdev",
+      "model_id": "moonshotai-kimi-k2-instruct",
+      "needs_review": true,
+      "provider_model_id": "moonshotai/kimi-k2-instruct",
+      "provider_name": "nvidia"
+    },
+    {
+      "context_window_tokens": 262144,
+      "data_source": "modelsdev",
+      "model_id": "moonshotai-kimi-k2-instruct-0905",
+      "needs_review": true,
+      "provider_model_id": "moonshotai/kimi-k2-instruct-0905",
+      "provider_name": "nvidia"
+    },
+    {
+      "context_window_tokens": 262144,
+      "data_source": "modelsdev",
+      "model_id": "moonshotai-kimi-k2-thinking",
+      "needs_review": true,
+      "provider_model_id": "moonshotai/kimi-k2-thinking",
+      "provider_name": "nvidia"
+    },
+    {
+      "context_window_tokens": 262144,
+      "data_source": "modelsdev",
+      "model_id": "moonshotai-kimi-k2-5",
+      "needs_review": true,
+      "provider_model_id": "moonshotai/kimi-k2.5",
+      "provider_name": "nvidia"
+    },
+    {
+      "context_window_tokens": 131072,
+      "data_source": "modelsdev",
+      "model_id": "nvidia-cosmos-nemotron-34b",
+      "needs_review": true,
+      "provider_model_id": "nvidia/cosmos-nemotron-34b",
+      "provider_name": "nvidia"
+    },
+    {
+      "context_window_tokens": 128000,
+      "data_source": "modelsdev",
+      "model_id": "nvidia-llama-3-1-nemotron-51b-instruct",
+      "needs_review": true,
+      "provider_model_id": "nvidia/llama-3.1-nemotron-51b-instruct",
+      "provider_name": "nvidia"
+    },
+    {
+      "context_window_tokens": 128000,
+      "data_source": "modelsdev",
+      "model_id": "nvidia-llama-3-1-nemotron-70b-instruct",
+      "needs_review": true,
+      "provider_model_id": "nvidia/llama-3.1-nemotron-70b-instruct",
+      "provider_name": "nvidia"
+    },
+    {
+      "context_window_tokens": 131072,
+      "data_source": "modelsdev",
+      "model_id": "nvidia-llama-3-1-nemotron-ultra-253b-v1",
+      "needs_review": true,
+      "provider_model_id": "nvidia/llama-3.1-nemotron-ultra-253b-v1",
+      "provider_name": "nvidia"
+    },
+    {
+      "context_window_tokens": 128000,
+      "data_source": "modelsdev",
+      "model_id": "nvidia-llama-3-3-nemotron-super-49b-v1",
+      "needs_review": true,
+      "provider_model_id": "nvidia/llama-3.3-nemotron-super-49b-v1",
+      "provider_name": "nvidia"
+    },
+    {
+      "context_window_tokens": 128000,
+      "data_source": "modelsdev",
+      "model_id": "nvidia-llama-3-3-nemotron-super-49b-v1-5",
+      "needs_review": true,
+      "provider_model_id": "nvidia/llama-3.3-nemotron-super-49b-v1.5",
+      "provider_name": "nvidia"
+    },
+    {
+      "context_window_tokens": 32768,
+      "data_source": "modelsdev",
+      "model_id": "nvidia-llama-embed-nemotron-8b",
+      "needs_review": true,
+      "provider_model_id": "nvidia/llama-embed-nemotron-8b",
+      "provider_name": "nvidia"
+    },
+    {
+      "context_window_tokens": 128000,
+      "data_source": "modelsdev",
+      "model_id": "nvidia-llama3-chatqa-1-5-70b",
+      "needs_review": true,
+      "provider_model_id": "nvidia/llama3-chatqa-1.5-70b",
+      "provider_name": "nvidia"
+    },
+    {
+      "context_window_tokens": 0,
+      "data_source": "modelsdev",
+      "model_id": "nvidia-nemoretriever-ocr-v1",
+      "needs_review": true,
+      "provider_model_id": "nvidia/nemoretriever-ocr-v1",
+      "provider_name": "nvidia"
+    },
+    {
+      "context_window_tokens": 131072,
+      "data_source": "modelsdev",
+      "model_id": "nvidia-nemotron-3-nano-30b-a3b",
+      "needs_review": true,
+      "provider_model_id": "nvidia/nemotron-3-nano-30b-a3b",
+      "provider_name": "nvidia"
+    },
+    {
+      "context_window_tokens": 128000,
+      "data_source": "modelsdev",
+      "model_id": "nvidia-nemotron-4-340b-instruct",
+      "needs_review": true,
+      "provider_model_id": "nvidia/nemotron-4-340b-instruct",
+      "provider_name": "nvidia"
+    },
+    {
+      "context_window_tokens": 131072,
+      "data_source": "modelsdev",
+      "model_id": "nvidia-nvidia-nemotron-nano-9b-v2",
+      "needs_review": true,
+      "provider_model_id": "nvidia/nvidia-nemotron-nano-9b-v2",
+      "provider_name": "nvidia"
+    },
+    {
+      "context_window_tokens": 0,
+      "data_source": "modelsdev",
+      "model_id": "nvidia-parakeet-tdt-0-6b-v2",
+      "needs_review": true,
+      "provider_model_id": "nvidia/parakeet-tdt-0.6b-v2",
+      "provider_name": "nvidia"
+    },
+    {
+      "context_window_tokens": 128000,
+      "data_source": "modelsdev",
+      "model_id": "gpt-oss-120b",
+      "needs_review": true,
+      "provider_model_id": "openai/gpt-oss-120b",
+      "provider_name": "nvidia"
+    },
+    {
+      "context_window_tokens": 0,
+      "data_source": "modelsdev",
+      "model_id": "whisper-large-v3",
+      "needs_review": true,
+      "provider_model_id": "openai/whisper-large-v3",
+      "provider_name": "nvidia"
+    },
+    {
+      "context_window_tokens": 128000,
+      "data_source": "modelsdev",
+      "model_id": "qwen-qwen2-5-coder-32b-instruct",
+      "needs_review": true,
+      "provider_model_id": "qwen/qwen2.5-coder-32b-instruct",
+      "provider_name": "nvidia"
+    },
+    {
+      "context_window_tokens": 128000,
+      "data_source": "modelsdev",
+      "model_id": "qwen-qwen2-5-coder-7b-instruct",
+      "needs_review": true,
+      "provider_model_id": "qwen/qwen2.5-coder-7b-instruct",
+      "provider_name": "nvidia"
+    },
+    {
+      "context_window_tokens": 131072,
+      "data_source": "modelsdev",
+      "model_id": "qwen-qwen3-235b-a22b",
+      "needs_review": true,
+      "provider_model_id": "qwen/qwen3-235b-a22b",
+      "provider_name": "nvidia"
+    },
+    {
+      "context_window_tokens": 262144,
+      "data_source": "modelsdev",
+      "model_id": "qwen-qwen3-coder-480b-a35b-instruct",
+      "needs_review": true,
+      "provider_model_id": "qwen/qwen3-coder-480b-a35b-instruct",
+      "provider_name": "nvidia"
+    },
+    {
+      "context_window_tokens": 262144,
+      "data_source": "modelsdev",
+      "model_id": "qwen-qwen3-next-80b-a3b-instruct",
+      "needs_review": true,
+      "provider_model_id": "qwen/qwen3-next-80b-a3b-instruct",
+      "provider_name": "nvidia"
+    },
+    {
+      "context_window_tokens": 262144,
+      "data_source": "modelsdev",
+      "model_id": "qwen-qwen3-next-80b-a3b-thinking",
+      "needs_review": true,
+      "provider_model_id": "qwen/qwen3-next-80b-a3b-thinking",
+      "provider_name": "nvidia"
+    },
+    {
+      "context_window_tokens": 262144,
+      "data_source": "modelsdev",
+      "model_id": "qwen-qwen3-5-397b-a17b",
+      "needs_review": true,
+      "provider_model_id": "qwen/qwen3.5-397b-a17b",
+      "provider_name": "nvidia"
+    },
+    {
+      "context_window_tokens": 128000,
+      "data_source": "modelsdev",
+      "model_id": "qwen-qwq-32b",
+      "needs_review": true,
+      "provider_model_id": "qwen/qwq-32b",
+      "provider_name": "nvidia"
+    },
+    {
+      "context_window_tokens": 256000,
+      "data_source": "modelsdev",
+      "model_id": "stepfun-ai-step-3-5-flash",
+      "needs_review": true,
+      "provider_model_id": "stepfun-ai/step-3.5-flash",
+      "provider_name": "nvidia"
+    },
+    {
+      "context_window_tokens": 204800,
+      "data_source": "modelsdev",
+      "model_id": "z-ai-glm4-7",
+      "needs_review": true,
+      "provider_model_id": "z-ai/glm4.7",
+      "provider_name": "nvidia"
+    },
+    {
+      "context_window_tokens": 202752,
+      "data_source": "modelsdev",
+      "model_id": "z-ai-glm5",
+      "needs_review": true,
+      "provider_model_id": "z-ai/glm5",
+      "provider_name": "nvidia"
+    },
+    {
+      "context_window_tokens": 200000,
+      "data_source": "modelsdev",
+      "model_id": "big-pickle",
+      "needs_review": true,
+      "provider_model_id": "big-pickle",
+      "provider_name": "opencode"
+    },
+    {
+      "context_window_tokens": 204800,
+      "data_source": "modelsdev",
+      "model_id": "glm-4-7-free",
+      "needs_review": true,
+      "provider_model_id": "glm-4.7-free",
+      "provider_name": "opencode"
+    },
+    {
+      "context_window_tokens": 204800,
+      "data_source": "modelsdev",
+      "model_id": "glm-5-free",
+      "needs_review": true,
+      "provider_model_id": "glm-5-free",
+      "provider_name": "opencode"
+    },
+    {
+      "context_window_tokens": 400000,
+      "data_source": "modelsdev",
+      "model_id": "gpt-5-nano",
+      "needs_review": true,
+      "provider_model_id": "gpt-5-nano",
+      "provider_name": "opencode"
+    },
+    {
+      "context_window_tokens": 256000,
+      "data_source": "modelsdev",
+      "model_id": "grok-code",
+      "needs_review": true,
+      "provider_model_id": "grok-code",
+      "provider_name": "opencode"
+    },
+    {
+      "context_window_tokens": 262144,
+      "data_source": "modelsdev",
+      "model_id": "kimi-k2-5-free",
+      "needs_review": true,
+      "provider_model_id": "kimi-k2.5-free",
+      "provider_name": "opencode"
+    },
+    {
+      "context_window_tokens": 262144,
+      "data_source": "modelsdev",
+      "model_id": "mimo-v2-flash-free",
+      "needs_review": true,
+      "provider_model_id": "mimo-v2-flash-free",
+      "provider_name": "opencode"
+    },
+    {
+      "context_window_tokens": 204800,
+      "data_source": "modelsdev",
+      "model_id": "minimax-m2-1-free",
+      "needs_review": true,
+      "provider_model_id": "minimax-m2.1-free",
+      "provider_name": "opencode"
+    },
+    {
+      "context_window_tokens": 204800,
+      "data_source": "modelsdev",
+      "model_id": "minimax-m2-5-free",
+      "needs_review": true,
+      "provider_model_id": "minimax-m2.5-free",
+      "provider_name": "opencode"
+    },
+    {
+      "context_window_tokens": 1000000,
+      "data_source": "modelsdev",
+      "model_id": "nemotron-3-super-free",
+      "needs_review": true,
+      "provider_model_id": "nemotron-3-super-free",
+      "provider_name": "opencode"
+    },
+    {
+      "context_window_tokens": 131072,
+      "data_source": "modelsdev",
+      "model_id": "trinity-large-preview-free",
+      "needs_review": true,
+      "provider_model_id": "trinity-large-preview-free",
+      "provider_name": "opencode"
+    },
+    {
+      "context_window_tokens": 36864,
+      "data_source": "modelsdev",
+      "model_id": "allenai-molmo-2-8b",
+      "needs_review": true,
+      "provider_model_id": "allenai/molmo-2-8b:free",
+      "provider_name": "openrouter"
+    },
+    {
+      "context_window_tokens": 131000,
+      "data_source": "modelsdev,openrouter",
+      "model_id": "arcee-ai-trinity-large-preview",
+      "needs_review": true,
+      "provider_model_id": "arcee-ai/trinity-large-preview:free",
+      "provider_name": "openrouter"
+    },
+    {
+      "context_window_tokens": 131072,
+      "data_source": "modelsdev,openrouter",
+      "model_id": "arcee-ai-trinity-mini",
+      "needs_review": true,
+      "provider_model_id": "arcee-ai/trinity-mini:free",
+      "provider_name": "openrouter"
+    },
+    {
+      "context_window_tokens": 67344,
+      "data_source": "modelsdev",
+      "model_id": "black-forest-labs-flux-2-flex",
+      "needs_review": true,
+      "provider_model_id": "black-forest-labs/flux.2-flex",
+      "provider_name": "openrouter"
+    },
+    {
+      "context_window_tokens": 40960,
+      "data_source": "modelsdev",
+      "model_id": "black-forest-labs-flux-2-klein-4b",
+      "needs_review": true,
+      "provider_model_id": "black-forest-labs/flux.2-klein-4b",
+      "provider_name": "openrouter"
+    },
+    {
+      "context_window_tokens": 46864,
+      "data_source": "modelsdev",
+      "model_id": "black-forest-labs-flux-2-max",
+      "needs_review": true,
+      "provider_model_id": "black-forest-labs/flux.2-max",
+      "provider_name": "openrouter"
+    },
+    {
+      "context_window_tokens": 46864,
+      "data_source": "modelsdev",
+      "model_id": "black-forest-labs-flux-2-pro",
+      "needs_review": true,
+      "provider_model_id": "black-forest-labs/flux.2-pro",
+      "provider_name": "openrouter"
+    },
+    {
+      "context_window_tokens": 4096,
+      "data_source": "modelsdev",
+      "model_id": "bytedance-seed-seedream-4-5",
+      "needs_review": true,
+      "provider_model_id": "bytedance-seed/seedream-4.5",
+      "provider_name": "openrouter"
+    },
+    {
+      "context_window_tokens": 32768,
+      "data_source": "modelsdev,openrouter",
+      "model_id": "cognitivecomputations-dolphin-mistral-24b-venice-edition",
+      "needs_review": true,
+      "provider_model_id": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free",
+      "provider_name": "openrouter"
+    },
+    {
+      "context_window_tokens": 32768,
+      "data_source": "modelsdev",
+      "model_id": "cognitivecomputations-dolphin3-0-mistral-24b",
+      "needs_review": true,
+      "provider_model_id": "cognitivecomputations/dolphin3.0-mistral-24b",
+      "provider_name": "openrouter"
+    },
+    {
+      "context_window_tokens": 32768,
+      "data_source": "modelsdev",
+      "model_id": "cognitivecomputations-dolphin3-0-r1-mistral-24b",
+      "needs_review": true,
+      "provider_model_id": "cognitivecomputations/dolphin3.0-r1-mistral-24b",
+      "provider_name": "openrouter"
+    },
+    {
+      "context_window_tokens": 163840,
+      "data_source": "modelsdev,openrouter",
+      "model_id": "deepseek-deepseek-chat-v3-0324",
+      "needs_review": true,
+      "provider_model_id": "deepseek/deepseek-chat-v3-0324",
+      "provider_name": "openrouter"
+    },
+    {
+      "context_window_tokens": 131072,
+      "data_source": "modelsdev",
+      "model_id": "deepseek-deepseek-r1-0528-qwen3-8b",
+      "needs_review": true,
+      "provider_model_id": "deepseek/deepseek-r1-0528-qwen3-8b:free",
+      "provider_name": "openrouter"
+    },
+    {
+      "context_window_tokens": 163840,
+      "data_source": "modelsdev",
+      "model_id": "deepseek-deepseek-r1-0528",
+      "needs_review": true,
+      "provider_model_id": "deepseek/deepseek-r1-0528:free",
+      "provider_name": "openrouter"
+    },
+    {
+      "context_window_tokens": 131072,
+      "data_source": "modelsdev,openrouter",
+      "model_id": "deepseek-deepseek-r1-distill-llama-70b",
+      "needs_review": true,
+      "provider_model_id": "deepseek/deepseek-r1-distill-llama-70b",
+      "provider_name": "openrouter"
+    },
+    {
+      "context_window_tokens": 64000,
+      "data_source": "modelsdev",
+      "model_id": "deepseek-deepseek-r1-distill-qwen-14b",
+      "needs_review": true,
+      "provider_model_id": "deepseek/deepseek-r1-distill-qwen-14b",
+      "provider_name": "openrouter"
+    },
+    {
+      "context_window_tokens": 163840,
+      "data_source": "modelsdev",
+      "model_id": "deepseek-deepseek-r1",
+      "needs_review": true,
+      "provider_model_id": "deepseek/deepseek-r1:free",
+      "provider_name": "openrouter"
+    },
+    {
+      "context_window_tokens": 163840,
+      "data_source": "modelsdev",
+      "model_id": "deepseek-deepseek-v3-base",
+      "needs_review": true,
+      "provider_model_id": "deepseek/deepseek-v3-base:free",
+      "provider_name": "openrouter"
+    },
+    {
+      "context_window_tokens": 32768,
+      "data_source": "modelsdev",
+      "model_id": "featherless-qwerky-72b",
+      "needs_review": true,
+      "provider_model_id": "featherless/qwerky-72b",
+      "provider_name": "openrouter"
+    },
+    {
+      "context_window_tokens": 1048576,
+      "data_source": "modelsdev",
+      "model_id": "gemini-2-0-flash-exp",
+      "needs_review": true,
+      "provider_model_id": "google/gemini-2.0-flash-exp:free",
+      "provider_name": "openrouter"
+    },
+    {
+      "context_window_tokens": 32768,
+      "data_source": "modelsdev,openrouter",
+      "model_id": "gemma-3-12b-it",
+      "needs_review": true,
+      "provider_model_id": "google/gemma-3-12b-it:free",
+      "provider_name": "openrouter"
+    },
+    {
+      "context_window_tokens": 131072,
+      "data_source": "modelsdev,openrouter",
+      "model_id": "gemma-3-27b-it",
+      "needs_review": true,
+      "provider_model_id": "google/gemma-3-27b-it:free",
+      "provider_name": "openrouter"
+    },
+    {
+      "context_window_tokens": 32768,
+      "data_source": "modelsdev,openrouter",
+      "model_id": "gemma-3-4b-it",
+      "needs_review": true,
+      "provider_model_id": "google/gemma-3-4b-it:free",
+      "provider_name": "openrouter"
+    },
+    {
+      "context_window_tokens": 8192,
+      "data_source": "modelsdev,openrouter",
+      "model_id": "gemma-3n-e2b-it",
+      "needs_review": true,
+      "provider_model_id": "google/gemma-3n-e2b-it:free",
+      "provider_name": "openrouter"
+    },
+    {
+      "context_window_tokens": 8192,
+      "data_source": "modelsdev,openrouter",
+      "model_id": "gemma-3n-e4b-it",
+      "needs_review": true,
+      "provider_model_id": "google/gemma-3n-e4b-it:free",
+      "provider_name": "openrouter"
+    },
+    {
+      "context_window_tokens": 256000,
+      "data_source": "modelsdev",
+      "model_id": "kwaipilot-kat-coder-pro",
+      "needs_review": true,
+      "provider_model_id": "kwaipilot/kat-coder-pro:free",
+      "provider_name": "openrouter"
+    },
+    {
+      "context_window_tokens": 32768,
+      "data_source": "modelsdev,openrouter",
+      "model_id": "liquid-lfm-2-5-1-2b-instruct",
+      "needs_review": true,
+      "provider_model_id": "liquid/lfm-2.5-1.2b-instruct:free",
+      "provider_name": "openrouter"
+    },
+    {
+      "context_window_tokens": 32768,
+      "data_source": "modelsdev,openrouter",
+      "model_id": "liquid-lfm-2-5-1-2b-thinking",
+      "needs_review": true,
+      "provider_model_id": "liquid/lfm-2.5-1.2b-thinking:free",
+      "provider_name": "openrouter"
+    },
+    {
+      "context_window_tokens": 131072,
+      "data_source": "modelsdev",
+      "model_id": "meta-llama-llama-3-1-405b-instruct",
+      "needs_review": true,
+      "provider_model_id": "meta-llama/llama-3.1-405b-instruct:free",
+      "provider_name": "openrouter"
+    },
+    {
+      "context_window_tokens": 131072,
+      "data_source": "modelsdev,openrouter",
+      "model_id": "meta-llama-llama-3-2-11b-vision-instruct",
+      "needs_review": true,
+      "provider_model_id": "meta-llama/llama-3.2-11b-vision-instruct",
+      "provider_name": "openrouter"
+    },
+    {
+      "context_window_tokens": 131072,
+      "data_source": "modelsdev,openrouter",
+      "model_id": "meta-llama-llama-3-2-3b-instruct",
+      "needs_review": true,
+      "provider_model_id": "meta-llama/llama-3.2-3b-instruct:free",
+      "provider_name": "openrouter"
+    },
+    {
+      "context_window_tokens": 128000,
+      "data_source": "modelsdev,openrouter",
+      "model_id": "meta-llama-llama-3-3-70b-instruct",
+      "needs_review": true,
+      "provider_model_id": "meta-llama/llama-3.3-70b-instruct:free",
+      "provider_name": "openrouter"
+    },
+    {
+      "context_window_tokens": 64000,
+      "data_source": "modelsdev",
+      "model_id": "meta-llama-llama-4-scout",
+      "needs_review": true,
+      "provider_model_id": "meta-llama/llama-4-scout:free",
+      "provider_name": "openrouter"
+    },
+    {
+      "context_window_tokens": 163840,
+      "data_source": "modelsdev",
+      "model_id": "microsoft-mai-ds-r1",
+      "needs_review": true,
+      "provider_model_id": "microsoft/mai-ds-r1:free",
+      "provider_name": "openrouter"
+    },
+    {
+      "context_window_tokens": 262144,
+      "data_source": "modelsdev",
+      "model_id": "devstral-2512",
+      "needs_review": true,
+      "provider_model_id": "mistralai/devstral-2512:free",
+      "provider_name": "openrouter"
+    },
+    {
+      "context_window_tokens": 32768,
+      "data_source": "modelsdev",
+      "model_id": "devstral-small-2505",
+      "needs_review": true,
+      "provider_model_id": "mistralai/devstral-small-2505:free",
+      "provider_name": "openrouter"
+    },
+    {
+      "context_window_tokens": 32768,
+      "data_source": "modelsdev",
+      "model_id": "mistral-7b-instruct",
+      "needs_review": true,
+      "provider_model_id": "mistralai/mistral-7b-instruct:free",
+      "provider_name": "openrouter"
+    },
+    {
+      "context_window_tokens": 131072,
+      "data_source": "modelsdev",
+      "model_id": "mistral-nemo",
+      "needs_review": true,
+      "provider_model_id": "mistralai/mistral-nemo:free",
+      "provider_name": "openrouter"
+    },
+    {
+      "context_window_tokens": 128000,
+      "data_source": "modelsdev,openrouter",
+      "model_id": "mistral-small-3-1-24b-instruct",
+      "needs_review": true,
+      "provider_model_id": "mistralai/mistral-small-3.1-24b-instruct",
+      "provider_name": "openrouter"
+    },
+    {
+      "context_window_tokens": 128000,
+      "data_source": "openrouter",
+      "model_id": "mistral-small-3-1-24b-instruct",
+      "needs_review": true,
+      "provider_model_id": "mistralai/mistral-small-3.1-24b-instruct:free",
+      "provider_name": "openrouter"
+    },
+    {
+      "context_window_tokens": 131072,
+      "data_source": "modelsdev,openrouter",
+      "model_id": "mistral-small-3-2-24b-instruct",
+      "needs_review": true,
+      "provider_model_id": "mistralai/mistral-small-3.2-24b-instruct",
+      "provider_name": "openrouter"
+    },
+    {
+      "context_window_tokens": 96000,
+      "data_source": "modelsdev",
+      "model_id": "mistral-small-3-2-24b-instruct",
+      "needs_review": true,
+      "provider_model_id": "mistralai/mistral-small-3.2-24b-instruct:free",
+      "provider_name": "openrouter"
+    },
+    {
+      "context_window_tokens": 131072,
+      "data_source": "modelsdev",
+      "model_id": "moonshotai-kimi-dev-72b",
+      "needs_review": true,
+      "provider_model_id": "moonshotai/kimi-dev-72b:free",
+      "provider_name": "openrouter"
+    },
+    {
+      "context_window_tokens": 32800,
+      "data_source": "modelsdev",
+      "model_id": "moonshotai-kimi-k2",
+      "needs_review": true,
+      "provider_model_id": "moonshotai/kimi-k2:free",
+      "provider_name": "openrouter"
+    },
+    {
+      "context_window_tokens": 131072,
+      "data_source": "modelsdev",
+      "model_id": "nousresearch-deephermes-3-llama-3-8b-preview",
+      "needs_review": true,
+      "provider_model_id": "nousresearch/deephermes-3-llama-3-8b-preview",
+      "provider_name": "openrouter"
+    },
+    {
+      "context_window_tokens": 131072,
+      "data_source": "modelsdev,openrouter",
+      "model_id": "nousresearch-hermes-3-llama-3-1-405b",
+      "needs_review": true,
+      "provider_model_id": "nousresearch/hermes-3-llama-3.1-405b:free",
+      "provider_name": "openrouter"
+    },
+    {
+      "context_window_tokens": 256000,
+      "data_source": "modelsdev,openrouter",
+      "model_id": "nvidia-nemotron-3-nano-30b-a3b",
+      "needs_review": true,
+      "provider_model_id": "nvidia/nemotron-3-nano-30b-a3b:free",
+      "provider_name": "openrouter"
+    },
+    {
+      "context_window_tokens": 262144,
+      "data_source": "openrouter",
+      "model_id": "nvidia-nemotron-3-super-120b-a12b",
+      "needs_review": true,
+      "provider_model_id": "nvidia/nemotron-3-super-120b-a12b:free",
+      "provider_name": "openrouter"
+    },
+    {
+      "context_window_tokens": 128000,
+      "data_source": "modelsdev,openrouter",
+      "model_id": "nvidia-nemotron-nano-12b-v2-vl",
+      "needs_review": true,
+      "provider_model_id": "nvidia/nemotron-nano-12b-v2-vl:free",
+      "provider_name": "openrouter"
+    },
+    {
+      "context_window_tokens": 128000,
+      "data_source": "modelsdev,openrouter",
+      "model_id": "nvidia-nemotron-nano-9b-v2",
+      "needs_review": true,
+      "provider_model_id": "nvidia/nemotron-nano-9b-v2:free",
+      "provider_name": "openrouter"
+    },
+    {
+      "context_window_tokens": 131072,
+      "data_source": "modelsdev,openrouter",
+      "model_id": "gpt-oss-120b",
+      "needs_review": true,
+      "provider_model_id": "openai/gpt-oss-120b:free",
+      "provider_name": "openrouter"
+    },
+    {
+      "context_window_tokens": 131072,
+      "data_source": "modelsdev,openrouter",
+      "model_id": "gpt-oss-20b",
+      "needs_review": true,
+      "provider_model_id": "openai/gpt-oss-20b:free",
+      "provider_name": "openrouter"
+    },
+    {
+      "context_window_tokens": 128000,
+      "data_source": "modelsdev",
+      "model_id": "aurora-alpha",
+      "needs_review": true,
+      "provider_model_id": "openrouter/aurora-alpha",
+      "provider_name": "openrouter"
+    },
+    {
+      "context_window_tokens": 200000,
+      "data_source": "modelsdev,openrouter",
+      "model_id": "free",
+      "needs_review": true,
+      "provider_model_id": "openrouter/free",
+      "provider_name": "openrouter"
+    },
+    {
+      "context_window_tokens": 262144,
+      "data_source": "modelsdev,openrouter",
+      "model_id": "healer-alpha",
+      "needs_review": true,
+      "provider_model_id": "openrouter/healer-alpha",
+      "provider_name": "openrouter"
+    },
+    {
+      "context_window_tokens": 1048576,
+      "data_source": "modelsdev,openrouter",
+      "model_id": "hunter-alpha",
+      "needs_review": true,
+      "provider_model_id": "openrouter/hunter-alpha",
+      "provider_name": "openrouter"
+    },
+    {
+      "context_window_tokens": 1840000,
+      "data_source": "modelsdev",
+      "model_id": "sherlock-dash-alpha",
+      "needs_review": true,
+      "provider_model_id": "openrouter/sherlock-dash-alpha",
+      "provider_name": "openrouter"
+    },
+    {
+      "context_window_tokens": 1840000,
+      "data_source": "modelsdev",
+      "model_id": "sherlock-think-alpha",
+      "needs_review": true,
+      "provider_model_id": "openrouter/sherlock-think-alpha",
+      "provider_name": "openrouter"
+    },
+    {
+      "context_window_tokens": 32768,
+      "data_source": "modelsdev,openrouter",
+      "model_id": "qwen-qwen-2-5-coder-32b-instruct",
+      "needs_review": true,
+      "provider_model_id": "qwen/qwen-2.5-coder-32b-instruct",
+      "provider_name": "openrouter"
+    },
+    {
+      "context_window_tokens": 32768,
+      "data_source": "modelsdev",
+      "model_id": "qwen-qwen-2-5-vl-7b-instruct",
+      "needs_review": true,
+      "provider_model_id": "qwen/qwen-2.5-vl-7b-instruct:free",
+      "provider_name": "openrouter"
+    },
+    {
+      "context_window_tokens": 8192,
+      "data_source": "modelsdev",
+      "model_id": "qwen-qwen2-5-vl-32b-instruct",
+      "needs_review": true,
+      "provider_model_id": "qwen/qwen2.5-vl-32b-instruct:free",
+      "provider_name": "openrouter"
+    },
+    {
+      "context_window_tokens": 32768,
+      "data_source": "modelsdev,openrouter",
+      "model_id": "qwen-qwen2-5-vl-72b-instruct",
+      "needs_review": true,
+      "provider_model_id": "qwen/qwen2.5-vl-72b-instruct",
+      "provider_name": "openrouter"
+    },
+    {
+      "context_window_tokens": 32768,
+      "data_source": "modelsdev",
+      "model_id": "qwen-qwen2-5-vl-72b-instruct",
+      "needs_review": true,
+      "provider_model_id": "qwen/qwen2.5-vl-72b-instruct:free",
+      "provider_name": "openrouter"
+    },
+    {
+      "context_window_tokens": 40960,
+      "data_source": "modelsdev",
+      "model_id": "qwen-qwen3-14b",
+      "needs_review": true,
+      "provider_model_id": "qwen/qwen3-14b:free",
+      "provider_name": "openrouter"
+    },
+    {
+      "context_window_tokens": 262144,
+      "data_source": "modelsdev",
+      "model_id": "qwen-qwen3-235b-a22b-07-25",
+      "needs_review": true,
+      "provider_model_id": "qwen/qwen3-235b-a22b-07-25:free",
+      "provider_name": "openrouter"
+    },
+    {
+      "context_window_tokens": 131072,
+      "data_source": "modelsdev",
+      "model_id": "qwen-qwen3-235b-a22b",
+      "needs_review": true,
+      "provider_model_id": "qwen/qwen3-235b-a22b:free",
+      "provider_name": "openrouter"
+    },
+    {
+      "context_window_tokens": 40960,
+      "data_source": "modelsdev",
+      "model_id": "qwen-qwen3-30b-a3b",
+      "needs_review": true,
+      "provider_model_id": "qwen/qwen3-30b-a3b:free",
+      "provider_name": "openrouter"
+    },
+    {
+      "context_window_tokens": 40960,
+      "data_source": "modelsdev",
+      "model_id": "qwen-qwen3-32b",
+      "needs_review": true,
+      "provider_model_id": "qwen/qwen3-32b:free",
+      "provider_name": "openrouter"
+    },
+    {
+      "context_window_tokens": 40960,
+      "data_source": "modelsdev,openrouter",
+      "model_id": "qwen-qwen3-4b",
+      "needs_review": true,
+      "provider_model_id": "qwen/qwen3-4b:free",
+      "provider_name": "openrouter"
+    },
+    {
+      "context_window_tokens": 40960,
+      "data_source": "modelsdev",
+      "model_id": "qwen-qwen3-8b",
+      "needs_review": true,
+      "provider_model_id": "qwen/qwen3-8b:free",
+      "provider_name": "openrouter"
+    },
+    {
+      "context_window_tokens": 262000,
+      "data_source": "modelsdev,openrouter",
+      "model_id": "qwen-qwen3-coder",
+      "needs_review": true,
+      "provider_model_id": "qwen/qwen3-coder:free",
+      "provider_name": "openrouter"
+    },
+    {
+      "context_window_tokens": 262144,
+      "data_source": "modelsdev,openrouter",
+      "model_id": "qwen-qwen3-next-80b-a3b-instruct",
+      "needs_review": true,
+      "provider_model_id": "qwen/qwen3-next-80b-a3b-instruct:free",
+      "provider_name": "openrouter"
+    },
+    {
+      "context_window_tokens": 32768,
+      "data_source": "modelsdev",
+      "model_id": "qwen-qwq-32b",
+      "needs_review": true,
+      "provider_model_id": "qwen/qwq-32b:free",
+      "provider_name": "openrouter"
+    },
+    {
+      "context_window_tokens": 32768,
+      "data_source": "modelsdev",
+      "model_id": "rekaai-reka-flash-3",
+      "needs_review": true,
+      "provider_model_id": "rekaai/reka-flash-3",
+      "provider_name": "openrouter"
+    },
+    {
+      "context_window_tokens": 32768,
+      "data_source": "modelsdev",
+      "model_id": "sarvamai-sarvam-m",
+      "needs_review": true,
+      "provider_model_id": "sarvamai/sarvam-m:free",
+      "provider_name": "openrouter"
+    },
+    {
+      "context_window_tokens": 8192,
+      "data_source": "modelsdev",
+      "model_id": "sourceful-riverflow-v2-fast-preview",
+      "needs_review": true,
+      "provider_model_id": "sourceful/riverflow-v2-fast-preview",
+      "provider_name": "openrouter"
+    },
+    {
+      "context_window_tokens": 8192,
+      "data_source": "modelsdev",
+      "model_id": "sourceful-riverflow-v2-max-preview",
+      "needs_review": true,
+      "provider_model_id": "sourceful/riverflow-v2-max-preview",
+      "provider_name": "openrouter"
+    },
+    {
+      "context_window_tokens": 8192,
+      "data_source": "modelsdev",
+      "model_id": "sourceful-riverflow-v2-standard-preview",
+      "needs_review": true,
+      "provider_model_id": "sourceful/riverflow-v2-standard-preview",
+      "provider_name": "openrouter"
+    },
+    {
+      "context_window_tokens": 256000,
+      "data_source": "modelsdev,openrouter",
+      "model_id": "stepfun-step-3-5-flash",
+      "needs_review": true,
+      "provider_model_id": "stepfun/step-3.5-flash:free",
+      "provider_name": "openrouter"
+    },
+    {
+      "context_window_tokens": 32768,
+      "data_source": "modelsdev",
+      "model_id": "thudm-glm-z1-32b",
+      "needs_review": true,
+      "provider_model_id": "thudm/glm-z1-32b:free",
+      "provider_name": "openrouter"
+    },
+    {
+      "context_window_tokens": 163840,
+      "data_source": "modelsdev",
+      "model_id": "tngtech-deepseek-r1t2-chimera",
+      "needs_review": true,
+      "provider_model_id": "tngtech/deepseek-r1t2-chimera:free",
+      "provider_name": "openrouter"
+    },
+    {
+      "context_window_tokens": 163840,
+      "data_source": "modelsdev",
+      "model_id": "tngtech-tng-r1t-chimera",
+      "needs_review": true,
+      "provider_model_id": "tngtech/tng-r1t-chimera:free",
+      "provider_name": "openrouter"
+    },
+    {
+      "context_window_tokens": 131072,
+      "data_source": "modelsdev,openrouter",
+      "model_id": "z-ai-glm-4-5-air",
+      "needs_review": true,
+      "provider_model_id": "z-ai/glm-4.5-air:free",
+      "provider_name": "openrouter"
+    },
+    {
+      "context_window_tokens": 128000,
+      "data_source": "modelsdev",
+      "model_id": "gemma-3-27b",
+      "needs_review": true,
+      "provider_model_id": "gemma-3-27b",
+      "provider_name": "privatemode-ai"
+    },
+    {
+      "context_window_tokens": 128000,
+      "data_source": "modelsdev",
+      "model_id": "gpt-oss-120b",
+      "needs_review": true,
+      "provider_model_id": "gpt-oss-120b",
+      "provider_name": "privatemode-ai"
+    },
+    {
+      "context_window_tokens": 128000,
+      "data_source": "modelsdev",
+      "model_id": "qwen3-coder-30b-a3b",
+      "needs_review": true,
+      "provider_model_id": "qwen3-coder-30b-a3b",
+      "provider_name": "privatemode-ai"
+    },
+    {
+      "context_window_tokens": 32000,
+      "data_source": "modelsdev",
+      "model_id": "qwen3-embedding-4b",
+      "needs_review": true,
+      "provider_model_id": "qwen3-embedding-4b",
+      "provider_name": "privatemode-ai"
+    },
+    {
+      "context_window_tokens": 0,
+      "data_source": "modelsdev",
+      "model_id": "whisper-large-v3",
+      "needs_review": true,
+      "provider_model_id": "whisper-large-v3",
+      "provider_name": "privatemode-ai"
+    },
+    {
+      "context_window_tokens": 16384,
+      "data_source": "modelsdev",
+      "model_id": "paddlepaddle-paddleocr-vl",
+      "needs_review": true,
+      "provider_model_id": "PaddlePaddle/PaddleOCR-VL",
+      "provider_name": "siliconflow-cn"
+    },
+    {
+      "context_window_tokens": 16384,
+      "data_source": "modelsdev",
+      "model_id": "paddlepaddle-paddleocr-vl-1-5",
+      "needs_review": true,
+      "provider_model_id": "PaddlePaddle/PaddleOCR-VL-1.5",
+      "provider_name": "siliconflow-cn"
+    },
+    {
+      "context_window_tokens": 262144,
+      "data_source": "modelsdev",
+      "model_id": "qwen-qwen3-5-4b",
+      "needs_review": true,
+      "provider_model_id": "Qwen/Qwen3.5-4B",
+      "provider_name": "siliconflow-cn"
+    },
+    {
+      "context_window_tokens": 8192,
+      "data_source": "modelsdev",
+      "model_id": "deepseek-ai-deepseek-ocr",
+      "needs_review": true,
+      "provider_model_id": "deepseek-ai/DeepSeek-OCR",
+      "provider_name": "siliconflow-cn"
+    },
+    {
+      "context_window_tokens": 33000,
+      "data_source": "modelsdev",
+      "model_id": "tencent-hunyuan-mt-7b",
+      "needs_review": true,
+      "provider_model_id": "tencent/Hunyuan-MT-7B",
+      "provider_name": "siliconflow-cn"
+    },
+    {
+      "context_window_tokens": 33000,
+      "data_source": "modelsdev",
+      "model_id": "tencent-hunyuan-mt-7b",
+      "needs_review": true,
+      "provider_model_id": "tencent/Hunyuan-MT-7B",
+      "provider_name": "siliconflow"
+    },
+    {
+      "context_window_tokens": 128000,
+      "data_source": "modelsdev",
+      "model_id": "meta-llama-3-3-70b",
+      "needs_review": true,
+      "provider_model_id": "meta/llama-3.3-70b",
+      "provider_name": "vercel"
+    },
+    {
+      "context_window_tokens": 128000,
+      "data_source": "modelsdev",
+      "model_id": "meta-llama-4-maverick",
+      "needs_review": true,
+      "provider_model_id": "meta/llama-4-maverick",
+      "provider_name": "vercel"
+    },
+    {
+      "context_window_tokens": 128000,
+      "data_source": "modelsdev",
+      "model_id": "meta-llama-4-scout",
+      "needs_review": true,
+      "provider_model_id": "meta/llama-4-scout",
+      "provider_name": "vercel"
+    },
+    {
+      "context_window_tokens": 131072,
+      "data_source": "modelsdev",
+      "model_id": "glm-4-5",
+      "needs_review": true,
+      "provider_model_id": "glm-4.5",
+      "provider_name": "zai-coding-plan"
+    },
+    {
+      "context_window_tokens": 131072,
+      "data_source": "modelsdev",
+      "model_id": "glm-4-5-air",
+      "needs_review": true,
+      "provider_model_id": "glm-4.5-air",
+      "provider_name": "zai-coding-plan"
+    },
+    {
+      "context_window_tokens": 131072,
+      "data_source": "modelsdev",
+      "model_id": "glm-4-5-flash",
+      "needs_review": true,
+      "provider_model_id": "glm-4.5-flash",
+      "provider_name": "zai-coding-plan"
+    },
+    {
+      "context_window_tokens": 64000,
+      "data_source": "modelsdev",
+      "model_id": "glm-4-5v",
+      "needs_review": true,
+      "provider_model_id": "glm-4.5v",
+      "provider_name": "zai-coding-plan"
+    },
+    {
+      "context_window_tokens": 204800,
+      "data_source": "modelsdev",
+      "model_id": "glm-4-6",
+      "needs_review": true,
+      "provider_model_id": "glm-4.6",
+      "provider_name": "zai-coding-plan"
+    },
+    {
+      "context_window_tokens": 128000,
+      "data_source": "modelsdev",
+      "model_id": "glm-4-6v",
+      "needs_review": true,
+      "provider_model_id": "glm-4.6v",
+      "provider_name": "zai-coding-plan"
+    },
+    {
+      "context_window_tokens": 204800,
+      "data_source": "modelsdev",
+      "model_id": "glm-4-7",
+      "needs_review": true,
+      "provider_model_id": "glm-4.7",
+      "provider_name": "zai-coding-plan"
+    },
+    {
+      "context_window_tokens": 200000,
+      "data_source": "modelsdev",
+      "model_id": "glm-4-7-flash",
+      "needs_review": true,
+      "provider_model_id": "glm-4.7-flash",
+      "provider_name": "zai-coding-plan"
+    },
+    {
+      "context_window_tokens": 204800,
+      "data_source": "modelsdev",
+      "model_id": "glm-5",
+      "needs_review": true,
+      "provider_model_id": "glm-5",
+      "provider_name": "zai-coding-plan"
+    },
+    {
+      "context_window_tokens": 131072,
+      "data_source": "modelsdev",
+      "model_id": "glm-4-5-flash",
+      "needs_review": true,
+      "provider_model_id": "glm-4.5-flash",
+      "provider_name": "zai"
+    },
+    {
+      "context_window_tokens": 200000,
+      "data_source": "modelsdev",
+      "model_id": "glm-4-7-flash",
+      "needs_review": true,
+      "provider_model_id": "glm-4.7-flash",
+      "provider_name": "zai"
+    },
+    {
+      "context_window_tokens": 256000,
+      "data_source": "modelsdev",
+      "model_id": "kuaishou-kat-coder-pro-v1-free",
+      "needs_review": true,
+      "provider_model_id": "kuaishou/kat-coder-pro-v1-free",
+      "provider_name": "zenmux"
+    },
+    {
+      "context_window_tokens": 256000,
+      "data_source": "modelsdev",
+      "model_id": "stepfun-step-3-5-flash-free",
+      "needs_review": true,
+      "provider_model_id": "stepfun/step-3.5-flash-free",
+      "provider_name": "zenmux"
+    },
+    {
+      "context_window_tokens": 262000,
+      "data_source": "modelsdev",
+      "model_id": "xiaomi-mimo-v2-flash-free",
+      "needs_review": true,
+      "provider_model_id": "xiaomi/mimo-v2-flash-free",
+      "provider_name": "zenmux"
+    },
+    {
+      "context_window_tokens": 200000,
+      "data_source": "modelsdev",
+      "model_id": "z-ai-glm-4-6v-flash-free",
+      "needs_review": true,
+      "provider_model_id": "z-ai/glm-4.6v-flash-free",
+      "provider_name": "zenmux"
+    },
+    {
+      "context_window_tokens": 200000,
+      "data_source": "modelsdev",
+      "model_id": "z-ai-glm-4-7-flash-free",
+      "needs_review": true,
+      "provider_model_id": "z-ai/glm-4.7-flash-free",
+      "provider_name": "zenmux"
+    },
+    {
+      "context_window_tokens": 131072,
+      "data_source": "modelsdev",
+      "model_id": "glm-4-5",
+      "needs_review": true,
+      "provider_model_id": "glm-4.5",
+      "provider_name": "zhipuai-coding-plan"
+    },
+    {
+      "context_window_tokens": 131072,
+      "data_source": "modelsdev",
+      "model_id": "glm-4-5-air",
+      "needs_review": true,
+      "provider_model_id": "glm-4.5-air",
+      "provider_name": "zhipuai-coding-plan"
+    },
+    {
+      "context_window_tokens": 131072,
+      "data_source": "modelsdev",
+      "model_id": "glm-4-5-flash",
+      "needs_review": true,
+      "provider_model_id": "glm-4.5-flash",
+      "provider_name": "zhipuai-coding-plan"
+    },
+    {
+      "context_window_tokens": 64000,
+      "data_source": "modelsdev",
+      "model_id": "glm-4-5v",
+      "needs_review": true,
+      "provider_model_id": "glm-4.5v",
+      "provider_name": "zhipuai-coding-plan"
+    },
+    {
+      "context_window_tokens": 204800,
+      "data_source": "modelsdev",
+      "model_id": "glm-4-6",
+      "needs_review": true,
+      "provider_model_id": "glm-4.6",
+      "provider_name": "zhipuai-coding-plan"
+    },
+    {
+      "context_window_tokens": 128000,
+      "data_source": "modelsdev",
+      "model_id": "glm-4-6v",
+      "needs_review": true,
+      "provider_model_id": "glm-4.6v",
+      "provider_name": "zhipuai-coding-plan"
+    },
+    {
+      "context_window_tokens": 128000,
+      "data_source": "modelsdev",
+      "model_id": "glm-4-6v-flash",
+      "needs_review": true,
+      "provider_model_id": "glm-4.6v-flash",
+      "provider_name": "zhipuai-coding-plan"
+    },
+    {
+      "context_window_tokens": 204800,
+      "data_source": "modelsdev",
+      "model_id": "glm-4-7",
+      "needs_review": true,
+      "provider_model_id": "glm-4.7",
+      "provider_name": "zhipuai-coding-plan"
+    },
+    {
+      "context_window_tokens": 204800,
+      "data_source": "modelsdev",
+      "model_id": "glm-5",
+      "needs_review": true,
+      "provider_model_id": "glm-5",
+      "provider_name": "zhipuai-coding-plan"
+    },
+    {
+      "context_window_tokens": 131072,
+      "data_source": "modelsdev",
+      "model_id": "glm-4-5-flash",
+      "needs_review": true,
+      "provider_model_id": "glm-4.5-flash",
+      "provider_name": "zhipuai"
+    },
+    {
+      "context_window_tokens": 200000,
+      "data_source": "modelsdev",
+      "model_id": "glm-4-7-flash",
+      "needs_review": true,
+      "provider_model_id": "glm-4.7-flash",
+      "provider_name": "zhipuai"
+    }
+  ],
+  "previously_known": 0,
+  "removed_count": 0,
+  "removed_keys": [],
+  "total_free_endpoints": 417
+}
