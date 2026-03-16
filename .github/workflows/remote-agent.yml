@@ -1,0 +1,100 @@
+name: Remote Agent Task
+
+on:
+  workflow_dispatch:
+    inputs:
+      task:
+        description: 'Task for the agent to perform'
+        required: true
+        type: string
+      target_file:
+        description: 'Specific file to focus on (optional)'
+        required: false
+        type: string
+
+jobs:
+  agent-task:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Install OpenCode
+        run: curl -fsSL https://opencode.ai/install | bash
+
+      - name: Add opencode to PATH
+        run: echo "$HOME/.opencode/bin" >> $GITHUB_PATH
+
+      - name: Configure OpenCode provider
+        run: |
+          mkdir -p ~/.config/opencode
+          cat > ~/.config/opencode/opencode.json << 'OCONFIG'
+          {
+            "provider": {
+              "custom": {
+                "name": "Custom Gateway",
+                "api": "openai",
+                "baseURL": "${{ secrets.LLM_GATEWAY_URL || 'http://40.233.101.233:8000/v1' }}",
+                "models": {
+                  "coding-smart": {"name": "coding-smart"},
+                  "coding-fast": {"name": "coding-fast"}
+                }
+              }
+            }
+          }
+          OCONFIG
+
+      - name: Run Agent Task
+        env:
+          OPENAI_API_KEY: ${{ secrets.LLM_GATEWAY_API_KEY || 'poop' }}
+          OPENAI_BASE_URL: ${{ secrets.LLM_GATEWAY_URL || 'http://40.233.101.233:8000/v1' }}
+        run: |
+          TASK="${{ inputs.task }}"
+          TARGET="${{ inputs.target_file }}"
+          if [ -n "$TARGET" ]; then
+            TASK="$TASK (focus on file: $TARGET)"
+          fi
+          echo "Running task: $TASK"
+          opencode --print "$TASK" 2>&1 | tee agent-output.log || true
+
+      - name: Commit changes
+        run: |
+          git config user.name "Remote Agent"
+          git config user.email "agent@github-actions"
+          BRANCH="agent/${{ github.run_id }}"
+          git checkout -b "$BRANCH"
+          git add -A
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+            echo "CHANGES=false" >> $GITHUB_ENV
+          else
+            git commit -m "Agent task: ${{ inputs.task }}"
+            git push origin "$BRANCH"
+            echo "CHANGES=true" >> $GITHUB_ENV
+            echo "BRANCH=$BRANCH" >> $GITHUB_ENV
+          fi
+
+      - name: Create PR
+        if: env.CHANGES == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN || github.token }}
+        run: |
+          gh pr create \
+            --title "Agent: ${{ inputs.task }}" \
+            --body "Automated PR from Remote Agent workflow.\n\nTask: ${{ inputs.task }}\nRun ID: ${{ github.run_id }}" \
+            --base main \
+            --head "${{ env.BRANCH }}"
+
+      - name: Upload logs
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: agent-logs-${{ github.run_id }}
+          path: agent-output.log
+          retention-days: 30
