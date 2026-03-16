@@ -1,143 +1,18 @@
 {
-  "generated_at": "2026-03-15T04:22:34+00:00",
-  "new_count": 13,
+  "generated_at": "2026-03-16T04:28:59+00:00",
+  "new_count": 1,
   "new_providers": [
     {
-      "context_window_tokens": 78000,
-      "data_source": "modelsdev",
-      "model_id": "corethink",
+      "context_window_tokens": 196608,
+      "data_source": "openrouter",
+      "model_id": "minimax-minimax-m2-5",
       "needs_review": true,
-      "provider_model_id": "corethink:free",
-      "provider_name": "kilo"
-    },
-    {
-      "context_window_tokens": 256000,
-      "data_source": "modelsdev",
-      "model_id": "giga-potato",
-      "needs_review": true,
-      "provider_model_id": "giga-potato",
-      "provider_name": "kilo"
-    },
-    {
-      "context_window_tokens": 256000,
-      "data_source": "modelsdev",
-      "model_id": "giga-potato-thinking",
-      "needs_review": true,
-      "provider_model_id": "giga-potato-thinking",
-      "provider_name": "kilo"
-    },
-    {
-      "context_window_tokens": 204800,
-      "data_source": "modelsdev",
-      "model_id": "kilo-auto-free",
-      "needs_review": true,
-      "provider_model_id": "kilo-auto/free",
-      "provider_name": "kilo"
-    },
-    {
-      "context_window_tokens": 204800,
-      "data_source": "modelsdev",
-      "model_id": "kilo-auto-free",
-      "needs_review": true,
-      "provider_model_id": "kilo/auto-free",
-      "provider_name": "kilo"
-    },
-    {
-      "context_window_tokens": 256000,
-      "data_source": "modelsdev",
-      "model_id": "morph-warp-grep-v2",
-      "needs_review": true,
-      "provider_model_id": "morph-warp-grep-v2",
-      "provider_name": "kilo"
-    },
-    {
-      "context_window_tokens": 262144,
-      "data_source": "modelsdev",
-      "model_id": "nvidia-nemotron-3-super-120b-a12b",
-      "needs_review": true,
-      "provider_model_id": "nvidia/nemotron-3-super-120b-a12b:free",
-      "provider_name": "kilo"
-    },
-    {
-      "context_window_tokens": 2000000,
-      "data_source": "modelsdev",
-      "model_id": "auto",
-      "needs_review": true,
-      "provider_model_id": "openrouter/auto",
-      "provider_name": "kilo"
-    },
-    {
-      "context_window_tokens": 128000,
-      "data_source": "modelsdev",
-      "model_id": "bodybuilder",
-      "needs_review": true,
-      "provider_model_id": "openrouter/bodybuilder",
-      "provider_name": "kilo"
-    },
-    {
-      "context_window_tokens": 200000,
-      "data_source": "modelsdev",
-      "model_id": "free",
-      "needs_review": true,
-      "provider_model_id": "openrouter/free",
-      "provider_name": "kilo"
-    },
-    {
-      "context_window_tokens": 262144,
-      "data_source": "modelsdev",
-      "model_id": "healer-alpha",
-      "needs_review": true,
-      "provider_model_id": "openrouter/healer-alpha",
-      "provider_name": "kilo"
-    },
-    {
-      "context_window_tokens": 1048576,
-      "data_source": "modelsdev",
-      "model_id": "hunter-alpha",
-      "needs_review": true,
-      "provider_model_id": "openrouter/hunter-alpha",
-      "provider_name": "kilo"
-    },
-    {
-      "context_window_tokens": 256000,
-      "data_source": "modelsdev",
-      "model_id": "x-ai-grok-code-fast-1",
-      "needs_review": true,
-      "provider_model_id": "x-ai/grok-code-fast-1:optimized:free",
-      "provider_name": "kilo"
+      "provider_model_id": "minimax/minimax-m2.5:free",
+      "provider_name": "openrouter"
     }
   ],
-  "previously_known": 417,
-  "removed_count": 28,
-  "removed_keys": [
-    "kilo::arcee-ai/trinity-mini:free",
-    "kilo::cognitivecomputations/dolphin-mistral-24b-venice-edition:free",
-    "kilo::deepseek/deepseek-r1-0528:free",
-    "kilo::google/gemma-3-12b-it:free",
-    "kilo::google/gemma-3-27b-it:free",
-    "kilo::google/gemma-3-4b-it:free",
-    "kilo::google/gemma-3n-e2b-it:free",
-    "kilo::google/gemma-3n-e4b-it:free",
-    "kilo::liquid/lfm-2.5-1.2b-instruct:free",
-    "kilo::liquid/lfm-2.5-1.2b-thinking:free",
-    "kilo::meta-llama/llama-3.2-3b-instruct:free",
-    "kilo::meta-llama/llama-3.3-70b-instruct:free",
-    "kilo::mistralai/mistral-small-3.1-24b-instruct:free",
-    "kilo::nousresearch/hermes-3-llama-3.1-405b:free",
-    "kilo::nvidia/nemotron-3-nano-30b-a3b:free",
-    "kilo::nvidia/nemotron-nano-12b-v2-vl:free",
-    "kilo::nvidia/nemotron-nano-9b-v2:free",
-    "kilo::openai/gpt-oss-120b:free",
-    "kilo::openai/gpt-oss-20b:free",
-    "kilo::openrouter/aurora-alpha",
-    "kilo::qwen/qwen3-235b-a22b-thinking-2507",
-    "kilo::qwen/qwen3-4b:free",
-    "kilo::qwen/qwen3-coder:free",
-    "kilo::qwen/qwen3-next-80b-a3b-instruct:free",
-    "kilo::qwen/qwen3-vl-235b-a22b-thinking",
-    "kilo::qwen/qwen3-vl-30b-a3b-thinking",
-    "kilo::z-ai/glm-4.5-air:free",
-    "kilo::z-ai/glm-5:free"
-  ],
-  "total_free_endpoints": 402
+  "previously_known": 402,
+  "removed_count": 0,
+  "removed_keys": [],
+  "total_free_endpoints": 403
 }
