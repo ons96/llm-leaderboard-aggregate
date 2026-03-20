@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-19T04:10:41+00:00",
+  "last_updated": "2026-03-20T04:03:13+00:00",
   "providers": [
     "aihubmix::coding-glm-4.7-free",
     "aihubmix::coding-glm-5-free",
@@ -418,6 +418,7 @@
     "zhipuai-coding-plan::glm-4.6v-flash",
     "zhipuai-coding-plan::glm-4.7",
     "zhipuai-coding-plan::glm-5",
+    "zhipuai-coding-plan::glm-5-turbo",
     "zhipuai::glm-4.5-flash",
     "zhipuai::glm-4.7-flash"
   ]

@@ -1,58 +1,18 @@
 {
-  "generated_at": "2026-03-19T04:10:41+00:00",
-  "new_count": 6,
+  "generated_at": "2026-03-20T04:03:13+00:00",
+  "new_count": 1,
   "new_providers": [
     {
-      "context_window_tokens": 204800,
+      "context_window_tokens": 200000,
       "data_source": "modelsdev",
-      "model_id": "minimax-m2-7",
+      "model_id": "glm-5-turbo",
       "needs_review": true,
-      "provider_model_id": "MiniMax-M2.7",
-      "provider_name": "minimax-cn-coding-plan"
-    },
-    {
-      "context_window_tokens": 204800,
-      "data_source": "modelsdev",
-      "model_id": "minimax-m2-7-highspeed",
-      "needs_review": true,
-      "provider_model_id": "MiniMax-M2.7-highspeed",
-      "provider_name": "minimax-cn-coding-plan"
-    },
-    {
-      "context_window_tokens": 204800,
-      "data_source": "modelsdev",
-      "model_id": "minimax-m2-7",
-      "needs_review": true,
-      "provider_model_id": "MiniMax-M2.7",
-      "provider_name": "minimax-coding-plan"
-    },
-    {
-      "context_window_tokens": 204800,
-      "data_source": "modelsdev",
-      "model_id": "minimax-m2-7-highspeed",
-      "needs_review": true,
-      "provider_model_id": "MiniMax-M2.7-highspeed",
-      "provider_name": "minimax-coding-plan"
-    },
-    {
-      "context_window_tokens": 262144,
-      "data_source": "modelsdev",
-      "model_id": "mimo-v2-omni-free",
-      "needs_review": true,
-      "provider_model_id": "mimo-v2-omni-free",
-      "provider_name": "opencode"
-    },
-    {
-      "context_window_tokens": 1048576,
-      "data_source": "modelsdev",
-      "model_id": "mimo-v2-pro-free",
-      "needs_review": true,
-      "provider_model_id": "mimo-v2-pro-free",
-      "provider_name": "opencode"
+      "provider_model_id": "glm-5-turbo",
+      "provider_name": "zhipuai-coding-plan"
     }
   ],
-  "previously_known": 413,
+  "previously_known": 419,
   "removed_count": 0,
   "removed_keys": [],
-  "total_free_endpoints": 419
+  "total_free_endpoints": 420
 }
