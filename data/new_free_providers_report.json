@@ -1,17 +1,8 @@
 {
-  "generated_at": "2026-03-20T04:03:13+00:00",
-  "new_count": 1,
-  "new_providers": [
-    {
-      "context_window_tokens": 200000,
-      "data_source": "modelsdev",
-      "model_id": "glm-5-turbo",
-      "needs_review": true,
-      "provider_model_id": "glm-5-turbo",
-      "provider_name": "zhipuai-coding-plan"
-    }
-  ],
-  "previously_known": 419,
+  "generated_at": "2026-03-21T03:53:56+00:00",
+  "new_count": 0,
+  "new_providers": [],
+  "previously_known": 420,
   "removed_count": 0,
   "removed_keys": [],
   "total_free_endpoints": 420
