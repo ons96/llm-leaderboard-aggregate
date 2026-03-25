@@ -10,9 +10,9 @@
   "sources": {
     "artificial_analysis_metrics": 0,
     "litellm_records": 2594,
-    "modelsdev_records": 3876,
-    "openrouter_records": 349
+    "modelsdev_records": 3879,
+    "openrouter_records": 346
   },
   "unique_models": 3833,
-  "updated_at": "2026-03-24T04:06:42+00:00"
+  "updated_at": "2026-03-25T04:08:10+00:00"
 }
