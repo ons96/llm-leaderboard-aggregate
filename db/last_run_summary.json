@@ -6,13 +6,13 @@
     "models_unique_csv": "/home/runner/work/llm-leaderboard-aggregate/llm-leaderboard-aggregate/db/models_unique.csv",
     "models_unique_db": "/home/runner/work/llm-leaderboard-aggregate/llm-leaderboard-aggregate/db/models_unique.db"
   },
-  "provider_rows": 6616,
+  "provider_rows": 6622,
   "sources": {
     "artificial_analysis_metrics": 0,
     "litellm_records": 2594,
-    "modelsdev_records": 3879,
+    "modelsdev_records": 3885,
     "openrouter_records": 346
   },
-  "unique_models": 3833,
-  "updated_at": "2026-03-25T04:08:10+00:00"
+  "unique_models": 3835,
+  "updated_at": "2026-03-26T04:22:26+00:00"
 }
