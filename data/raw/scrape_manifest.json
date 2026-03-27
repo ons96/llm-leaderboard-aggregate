@@ -26,7 +26,7 @@
       "ok": true,
       "row_count": 2594,
       "sha256": "5632852c062ca43ea87f7c4b71ee324aa323a9cc2d2c387181ad35cccaf00668",
-      "updated_at": "2026-03-26T04:22:25+00:00"
+      "updated_at": "2026-03-27T04:23:37+00:00"
     },
     "livebench": {
       "error": null,
@@ -59,16 +59,16 @@
     "modelsdev": {
       "error": null,
       "ok": true,
-      "row_count": 104,
-      "sha256": "cf18744f198b566cceca761ae0065ea989073227f28a84c7ac3c19f58956b38d",
-      "updated_at": "2026-03-26T04:22:26+00:00"
+      "row_count": 105,
+      "sha256": "532cea36b2c9eb2259d3c44a1913aca6825759c9d7e3d83a86777d906bf85666",
+      "updated_at": "2026-03-27T04:23:38+00:00"
     },
     "openrouter": {
       "error": null,
       "ok": true,
       "row_count": 346,
-      "sha256": "08ec9d09ba91edfd65898aaa5547582d0ec442b1b2bcce6b9df2ec7ffc6adac5",
-      "updated_at": "2026-03-26T04:22:26+00:00"
+      "sha256": "e79a6246b13a56c852b7d913b270c8c1a947720fd22db660be21ef66c32f370a",
+      "updated_at": "2026-03-27T04:23:37+00:00"
     },
     "swebench": {
       "error": null,
@@ -92,5 +92,5 @@
       "updated_at": "2026-03-13T17:59:46+00:00"
     }
   },
-  "updated_at": "2026-03-26T04:22:26+00:00"
+  "updated_at": "2026-03-27T04:23:38+00:00"
 }
