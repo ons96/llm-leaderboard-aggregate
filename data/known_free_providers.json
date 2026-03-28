@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-27T04:23:38+00:00",
+  "last_updated": "2026-03-28T04:07:41+00:00",
   "providers": [
     "aihubmix::coding-glm-4.7-free",
     "aihubmix::coding-glm-5-free",
@@ -133,6 +133,12 @@
     "gitlab::duo-chat-opus-4-6",
     "gitlab::duo-chat-sonnet-4-5",
     "gitlab::duo-chat-sonnet-4-6",
+    "groq::allam-2-7b",
+    "groq::canopylabs/orpheus-v1-english",
+    "groq::groq/compound",
+    "groq::groq/compound-mini",
+    "groq::whisper-large-v3",
+    "groq::whisper-large-v3-turbo",
     "huggingface::zai-org/GLM-4.7-Flash",
     "iflowcn::deepseek-r1",
     "iflowcn::deepseek-v3",
@@ -386,6 +392,7 @@
     "zai-coding-plan::glm-4.7-flash",
     "zai-coding-plan::glm-5",
     "zai-coding-plan::glm-5-turbo",
+    "zai-coding-plan::glm-5.1",
     "zai::glm-4.5-flash",
     "zai::glm-4.7-flash",
     "zenmux::kuaishou/kat-coder-pro-v1-free",
@@ -404,6 +411,7 @@
     "zhipuai-coding-plan::glm-4.7-flash",
     "zhipuai-coding-plan::glm-5",
     "zhipuai-coding-plan::glm-5-turbo",
+    "zhipuai-coding-plan::glm-5.1",
     "zhipuai::glm-4.5-flash",
     "zhipuai::glm-4.7-flash"
   ]

@@ -1,162 +1,74 @@
 {
-  "generated_at": "2026-03-27T04:23:38+00:00",
-  "new_count": 19,
+  "generated_at": "2026-03-28T04:07:41+00:00",
+  "new_count": 8,
   "new_providers": [
     {
-      "context_window_tokens": 128000,
+      "context_window_tokens": 4096,
       "data_source": "modelsdev",
-      "model_id": "auto",
+      "model_id": "allam-2-7b",
       "needs_review": true,
-      "provider_model_id": "auto",
-      "provider_name": "llmgateway"
+      "provider_model_id": "allam-2-7b",
+      "provider_name": "groq"
     },
     {
-      "context_window_tokens": 2000,
+      "context_window_tokens": 4000,
       "data_source": "modelsdev",
-      "model_id": "cogview-4",
+      "model_id": "canopylabs-orpheus-v1-english",
       "needs_review": true,
-      "provider_model_id": "cogview-4",
-      "provider_name": "llmgateway"
+      "provider_model_id": "canopylabs/orpheus-v1-english",
+      "provider_name": "groq"
     },
     {
-      "context_window_tokens": 128000,
+      "context_window_tokens": 131072,
       "data_source": "modelsdev",
-      "model_id": "custom",
+      "model_id": "compound",
       "needs_review": true,
-      "provider_model_id": "custom",
-      "provider_name": "llmgateway"
+      "provider_model_id": "groq/compound",
+      "provider_name": "groq"
     },
     {
-      "context_window_tokens": 128000,
+      "context_window_tokens": 131072,
       "data_source": "modelsdev",
-      "model_id": "glm-4-5-flash",
+      "model_id": "compound-mini",
       "needs_review": true,
-      "provider_model_id": "glm-4.5-flash",
-      "provider_name": "llmgateway"
+      "provider_model_id": "groq/compound-mini",
+      "provider_name": "groq"
     },
     {
-      "context_window_tokens": 128000,
+      "context_window_tokens": 448,
       "data_source": "modelsdev",
-      "model_id": "glm-4-6v-flash",
+      "model_id": "whisper-large-v3",
       "needs_review": true,
-      "provider_model_id": "glm-4.6v-flash",
-      "provider_name": "llmgateway"
+      "provider_model_id": "whisper-large-v3",
+      "provider_name": "groq"
+    },
+    {
+      "context_window_tokens": 448,
+      "data_source": "modelsdev",
+      "model_id": "whisper-large-v3-turbo",
+      "needs_review": true,
+      "provider_model_id": "whisper-large-v3-turbo",
+      "provider_name": "groq"
     },
     {
       "context_window_tokens": 200000,
       "data_source": "modelsdev",
-      "model_id": "glm-4-7-flash",
+      "model_id": "glm-5-1",
       "needs_review": true,
-      "provider_model_id": "glm-4.7-flash",
-      "provider_name": "llmgateway"
+      "provider_model_id": "glm-5.1",
+      "provider_name": "zai-coding-plan"
     },
     {
-      "context_window_tokens": 2000,
+      "context_window_tokens": 200000,
       "data_source": "modelsdev",
-      "model_id": "glm-image",
+      "model_id": "glm-5-1",
       "needs_review": true,
-      "provider_model_id": "glm-image",
-      "provider_name": "llmgateway"
-    },
-    {
-      "context_window_tokens": 2000,
-      "data_source": "modelsdev",
-      "model_id": "grok-imagine-image",
-      "needs_review": true,
-      "provider_model_id": "grok-imagine-image",
-      "provider_name": "llmgateway"
-    },
-    {
-      "context_window_tokens": 2000,
-      "data_source": "modelsdev",
-      "model_id": "grok-imagine-image-pro",
-      "needs_review": true,
-      "provider_model_id": "grok-imagine-image-pro",
-      "provider_name": "llmgateway"
-    },
-    {
-      "context_window_tokens": 2000,
-      "data_source": "modelsdev",
-      "model_id": "qwen-image",
-      "needs_review": true,
-      "provider_model_id": "qwen-image",
-      "provider_name": "llmgateway"
-    },
-    {
-      "context_window_tokens": 2000,
-      "data_source": "modelsdev",
-      "model_id": "qwen-image-edit-max",
-      "needs_review": true,
-      "provider_model_id": "qwen-image-edit-max",
-      "provider_name": "llmgateway"
-    },
-    {
-      "context_window_tokens": 2000,
-      "data_source": "modelsdev",
-      "model_id": "qwen-image-edit-plus",
-      "needs_review": true,
-      "provider_model_id": "qwen-image-edit-plus",
-      "provider_name": "llmgateway"
-    },
-    {
-      "context_window_tokens": 2000,
-      "data_source": "modelsdev",
-      "model_id": "qwen-image-max",
-      "needs_review": true,
-      "provider_model_id": "qwen-image-max",
-      "provider_name": "llmgateway"
-    },
-    {
-      "context_window_tokens": 2000,
-      "data_source": "modelsdev",
-      "model_id": "qwen-image-max-2025-12-30",
-      "needs_review": true,
-      "provider_model_id": "qwen-image-max-2025-12-30",
-      "provider_name": "llmgateway"
-    },
-    {
-      "context_window_tokens": 2000,
-      "data_source": "modelsdev",
-      "model_id": "qwen-image-plus",
-      "needs_review": true,
-      "provider_model_id": "qwen-image-plus",
-      "provider_name": "llmgateway"
-    },
-    {
-      "context_window_tokens": 2000,
-      "data_source": "modelsdev",
-      "model_id": "seedream-4-0",
-      "needs_review": true,
-      "provider_model_id": "seedream-4-0",
-      "provider_name": "llmgateway"
-    },
-    {
-      "context_window_tokens": 2000,
-      "data_source": "modelsdev",
-      "model_id": "seedream-4-5",
-      "needs_review": true,
-      "provider_model_id": "seedream-4-5",
-      "provider_name": "llmgateway"
-    },
-    {
-      "context_window_tokens": 32768,
-      "data_source": "modelsdev",
-      "model_id": "veo-3-1-fast-generate-preview",
-      "needs_review": true,
-      "provider_model_id": "veo-3.1-fast-generate-preview",
-      "provider_name": "llmgateway"
-    },
-    {
-      "context_window_tokens": 32768,
-      "data_source": "modelsdev",
-      "model_id": "veo-3-1-generate-preview",
-      "needs_review": true,
-      "provider_model_id": "veo-3.1-generate-preview",
-      "provider_name": "llmgateway"
+      "provider_model_id": "glm-5.1",
+      "provider_name": "zhipuai-coding-plan"
     }
   ],
-  "previously_known": 386,
+  "previously_known": 405,
   "removed_count": 0,
   "removed_keys": [],
-  "total_free_endpoints": 405
+  "total_free_endpoints": 413
 }
