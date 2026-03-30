@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-29T04:26:55+00:00",
+  "last_updated": "2026-03-30T04:34:47+00:00",
   "providers": [
     "aihubmix::coding-glm-4.7-free",
     "aihubmix::coding-glm-5-free",
@@ -347,7 +347,6 @@
     "openrouter::moonshotai/kimi-k2:free",
     "openrouter::nousresearch/hermes-3-llama-3.1-405b:free",
     "openrouter::nvidia/nemotron-3-nano-30b-a3b:free",
-    "openrouter::nvidia/nemotron-3-super-120b-a12b-free",
     "openrouter::nvidia/nemotron-3-super-120b-a12b:free",
     "openrouter::nvidia/nemotron-nano-12b-v2-vl:free",
     "openrouter::nvidia/nemotron-nano-9b-v2:free",
