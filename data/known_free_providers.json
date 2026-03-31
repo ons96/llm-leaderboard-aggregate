@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-30T04:34:47+00:00",
+  "last_updated": "2026-03-31T04:25:37+00:00",
   "providers": [
     "aihubmix::coding-glm-4.7-free",
     "aihubmix::coding-glm-5-free",
@@ -320,6 +320,7 @@
     "opencode::minimax-m2.1-free",
     "opencode::minimax-m2.5-free",
     "opencode::nemotron-3-super-free",
+    "opencode::qwen3.6-plus-free",
     "opencode::trinity-large-preview-free",
     "openrouter::arcee-ai/trinity-large-preview:free",
     "openrouter::arcee-ai/trinity-mini:free",
@@ -336,6 +337,8 @@
     "openrouter::google/gemma-3-4b-it:free",
     "openrouter::google/gemma-3n-e2b-it:free",
     "openrouter::google/gemma-3n-e4b-it:free",
+    "openrouter::google/lyria-3-clip-preview",
+    "openrouter::google/lyria-3-pro-preview",
     "openrouter::liquid/lfm-2.5-1.2b-instruct:free",
     "openrouter::liquid/lfm-2.5-1.2b-thinking:free",
     "openrouter::meta-llama/llama-3.2-11b-vision-instruct",
@@ -358,6 +361,7 @@
     "openrouter::qwen/qwen3-4b:free",
     "openrouter::qwen/qwen3-coder:free",
     "openrouter::qwen/qwen3-next-80b-a3b-instruct:free",
+    "openrouter::qwen/qwen3.6-plus-preview:free",
     "openrouter::sourceful/riverflow-v2-fast-preview",
     "openrouter::sourceful/riverflow-v2-max-preview",
     "openrouter::sourceful/riverflow-v2-standard-preview",
