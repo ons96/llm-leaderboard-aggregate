@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-01T04:37:39+00:00",
+  "last_updated": "2026-04-02T04:17:05+00:00",
   "providers": [
     "aihubmix::coding-glm-4.7-free",
     "aihubmix::coding-glm-5-free",
@@ -400,6 +400,7 @@
     "zai-coding-plan::glm-5",
     "zai-coding-plan::glm-5-turbo",
     "zai-coding-plan::glm-5.1",
+    "zai-coding-plan::glm-5v-turbo",
     "zai::glm-4.5-flash",
     "zai::glm-4.7-flash",
     "zenmux::kuaishou/kat-coder-pro-v1-free",
@@ -419,6 +420,7 @@
     "zhipuai-coding-plan::glm-5",
     "zhipuai-coding-plan::glm-5-turbo",
     "zhipuai-coding-plan::glm-5.1",
+    "zhipuai-coding-plan::glm-5v-turbo",
     "zhipuai::glm-4.5-flash",
     "zhipuai::glm-4.7-flash"
   ]
