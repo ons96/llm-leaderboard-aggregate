@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-02T04:17:05+00:00",
+  "last_updated": "2026-04-03T04:18:02+00:00",
   "providers": [
     "aihubmix::coding-glm-4.7-free",
     "aihubmix::coding-glm-5-free",
@@ -362,11 +362,14 @@
     "openrouter::qwen/qwen3-coder:free",
     "openrouter::qwen/qwen3-next-80b-a3b-instruct:free",
     "openrouter::qwen/qwen3.6-plus-preview:free",
+    "openrouter::qwen/qwen3.6-plus:free",
     "openrouter::sourceful/riverflow-v2-fast-preview",
     "openrouter::sourceful/riverflow-v2-max-preview",
     "openrouter::sourceful/riverflow-v2-standard-preview",
     "openrouter::stepfun/step-3.5-flash:free",
     "openrouter::z-ai/glm-4.5-air:free",
+    "poe::fireworks-ai/kimi-k2.5-fw",
+    "poe::openai/gpt-5.3-codex-spark",
     "privatemode-ai::gemma-3-27b",
     "privatemode-ai::gpt-oss-120b",
     "privatemode-ai::qwen3-coder-30b-a3b",

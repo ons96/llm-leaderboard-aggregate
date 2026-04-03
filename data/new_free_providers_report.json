@@ -1,26 +1,34 @@
 {
-  "generated_at": "2026-04-02T04:17:05+00:00",
-  "new_count": 2,
+  "generated_at": "2026-04-03T04:18:02+00:00",
+  "new_count": 3,
   "new_providers": [
     {
-      "context_window_tokens": 200000,
-      "data_source": "modelsdev",
-      "model_id": "glm-5v-turbo",
+      "context_window_tokens": 1000000,
+      "data_source": "modelsdev,openrouter",
+      "model_id": "qwen-qwen3-6-plus",
       "needs_review": true,
-      "provider_model_id": "glm-5v-turbo",
-      "provider_name": "zai-coding-plan"
+      "provider_model_id": "qwen/qwen3.6-plus:free",
+      "provider_name": "openrouter"
     },
     {
-      "context_window_tokens": 200000,
+      "context_window_tokens": 262144,
       "data_source": "modelsdev",
-      "model_id": "glm-5v-turbo",
+      "model_id": "fireworks-ai-kimi-k2-5-fw",
       "needs_review": true,
-      "provider_model_id": "glm-5v-turbo",
-      "provider_name": "zhipuai-coding-plan"
+      "provider_model_id": "fireworks-ai/kimi-k2.5-fw",
+      "provider_name": "poe"
+    },
+    {
+      "context_window_tokens": 128000,
+      "data_source": "modelsdev",
+      "model_id": "gpt-5-3-codex-spark",
+      "needs_review": true,
+      "provider_model_id": "openai/gpt-5.3-codex-spark",
+      "provider_name": "poe"
     }
   ],
-  "previously_known": 420,
+  "previously_known": 422,
   "removed_count": 0,
   "removed_keys": [],
-  "total_free_endpoints": 422
+  "total_free_endpoints": 425
 }
