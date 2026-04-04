@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-03T04:18:02+00:00",
+  "last_updated": "2026-04-04T04:05:44+00:00",
   "providers": [
     "aihubmix::coding-glm-4.7-free",
     "aihubmix::coding-glm-5-free",
@@ -392,6 +392,15 @@
     "vercel::meta/llama-3.3-70b",
     "vercel::meta/llama-4-maverick",
     "vercel::meta/llama-4-scout",
+    "xiaomi-token-plan-ams::mimo-v2-omni",
+    "xiaomi-token-plan-ams::mimo-v2-pro",
+    "xiaomi-token-plan-ams::mimo-v2-tts",
+    "xiaomi-token-plan-cn::mimo-v2-omni",
+    "xiaomi-token-plan-cn::mimo-v2-pro",
+    "xiaomi-token-plan-cn::mimo-v2-tts",
+    "xiaomi-token-plan-sgp::mimo-v2-omni",
+    "xiaomi-token-plan-sgp::mimo-v2-pro",
+    "xiaomi-token-plan-sgp::mimo-v2-tts",
     "zai-coding-plan::glm-4.5",
     "zai-coding-plan::glm-4.5-air",
     "zai-coding-plan::glm-4.5-flash",
